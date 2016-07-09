@@ -4,23 +4,33 @@ DATA=./data
 if [ -f "$1" ]
 then
 
-FILECOUNT=0
+#FILECOUNT=0
+#for item in $DATA/*.txt
+#do
+#if [ -f "$item" ]
+#then 
+#FILECOUNT=$((FILECOUNT+1))
+#fi
+#done
+MAXFILEID=0
 for item in $DATA/*.txt
 do
-if [ -f "$item" ]
+if [  $(basename "$item" ".txt") -gt "$MAXFILEID" ]
 then 
-FILECOUNT=$((FILECOUNT+1))
+MAXFILEID=$(basename "$item" ".txt")
 fi
 done
+MAXFILEID=$((MAXFILEID+1))
 
-cp $1 $DATA/$FILECOUNT.pdf
-pdftotext $1 $DATA/$FILECOUNT.txt
+cp $1 $DATA/$MAXFILEID.pdf
+pdftotext $1 $DATA/$MAXFILEID.txt
 
 if [ -f "$2" ]
 then 
-cp $2 $DATA/$FILECOUNT.bib
+cp $2 $DATA/$MAXFILEID.bib
 else
-vim $DATA/$FILECOUNT.bib
+touch $DATA/$MAXFILEID.bib
+vim $DATA/$MAXFILEID.bib
 fi
 
 else
