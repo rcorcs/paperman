@@ -4,18 +4,10 @@ DATA=./data
 if [ -f "$1" ]
 then
 
-#FILECOUNT=0
-#for item in $DATA/*.txt
-#do
-#if [ -f "$item" ]
-#then 
-#FILECOUNT=$((FILECOUNT+1))
-#fi
-#done
 MAXFILEID=0
 for item in $DATA/*.txt
 do
-if [  $(basename "$item" ".txt") -gt "$MAXFILEID" ]
+if [ $(basename "$item" ".txt") -gt "$MAXFILEID" ]
 then 
 MAXFILEID=$(basename "$item" ".txt")
 fi
