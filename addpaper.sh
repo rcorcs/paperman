@@ -1,4 +1,5 @@
 #!/bin/bash
+
 DATA=./data
 
 if [ -f "$1" ]
@@ -24,6 +25,8 @@ else
 touch $DATA/$MAXFILEID.bib
 vim $DATA/$MAXFILEID.bib
 fi
+
+python indexer.py $MAXFILEID
 
 else
 echo "Usage: $0 <PDF> [<BIBTEX>]"

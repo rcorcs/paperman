@@ -1,2 +1,4 @@
+#!/bin/bash
+DATA=./data
 
-gvfs-open data/$1.pdf
+gvfs-open $DATA/$1.pdf

@@ -4,15 +4,21 @@
 import os
 import re
 import argparse
+import sys
 from collections import defaultdict 
 from sets import Set
 
 import bibtexparser as bibtex
 
+import indexer
+
 path='data/'
 paths = sorted([os.path.join(path,fn) for fn in next(os.walk(path))[2]])
 
 parser = argparse.ArgumentParser(description='Process some integers.')
+
+parser.add_argument('--list-tags', nargs='?', const=True, default=False, help='List all known tags')
+
 parser.add_argument('--words', metavar='<word>', type=str, nargs='+',
                       help='individual words to search for')
 
@@ -26,10 +32,18 @@ parser.add_argument('--authors', metavar='<author>', type=str, nargs='+',
                       help='a list of comma separated authors to search for')
 
 args = parser.parse_args()
-#print 'words:',args.words
-#print 'authors:',args.authors
-#print 'tags:',args.tags
-#print 'years:',args.years
+
+if args.list_tags:
+   tags = []
+   for filepath in [p for p in paths if p.endswith('.tags')]:
+      data = open(filepath).read()
+      for token in data.split('\n'):
+         token = token.strip().lower()
+         if len(token)>0:
+            tags.append(token)
+   for tag in sorted(set(tags)):
+      print tag
+   sys.exit(0)
 
 words = []
 tags = []
@@ -48,12 +62,10 @@ if args.authors:
    authors = ' '.join(args.authors)
    authors = [a.strip() for a in authors.split(',')]
 
-wordsdoc = defaultdict(list)
-for filepath in [p for p in paths if p.endswith('.txt')]:
-   data = open(filepath).read()
-   for token in re.split('\W+', data):
-      if filepath not in wordsdoc[token.lower()]:
-         wordsdoc[token.lower()].append(os.path.basename(filepath)[:-4])
+
+index = indexer.loadIndex('data/')
+
+wordsdoc = index['words']
 
 answer = [os.path.basename(p)[:-4] for p in paths if p.endswith('.txt')]
 
@@ -61,25 +73,18 @@ answer = [os.path.basename(p)[:-4] for p in paths if p.endswith('.txt')]
 for word in words:
    if word.lower() in wordsdoc.keys():
       answer = Set(answer).intersection(Set(wordsdoc[word.lower()]))
-      print word,':',list(answer)
+      #print word,':',list(answer)
    else:
       print 'Word not found:',word
 
 ##Filter by tag
-#tag indexing
-tagsdoc = defaultdict(list)
-for filepath in [p for p in paths if p.endswith('.tags')]:
-   data = open(filepath).read()
-   for token in data.split('\n'):
-      token = token.strip().lower()
-      if len(token)>0 and filepath not in tagsdoc[token]:
-         tagsdoc[token].append(os.path.basename(filepath)[:-5])
-#filter documents by tag
+
+tagsdoc = index['tags']
 tagFound = False
 for tag in tags:
    if tag.lower() in tagsdoc.keys():
       answer = Set(answer).intersection(Set(tagsdoc[tag.lower()]))
-      print tag,':',list(answer)
+      #print tag,':',list(answer)
       tagFound = True
    else:
       print 'Tag not found:',tag
@@ -88,8 +93,7 @@ if not tagFound:
       for key in tagsdoc.keys():
          if tag.lower() in key:
             answer = Set(answer).intersection(Set(tagsdoc[key]))
-            print tag,'in',key,':',list(answer)
-
+            #print tag,'in',key,':',list(answer)
 
 ##Filter by author
 new_answer = []
@@ -121,10 +125,4 @@ for paperid in sorted([int(pid) for pid in answer]):
       #   print 'Year do not match:',paperid
    else:
       print paperid,'\t',bib_database.entries[0]['title']
-      print ' \t ',bib_database.entries[0]['author'],'('+str(bib_database.entries[0]['year'])+')'
-
-#for filepath in [p for p in paths if p.endswith('.bib')]:
-#   bib_database = bibtex.load(open(filepath))
-#   print os.path.basename(filepath)[:-4],'\t',bib_database.entries[0]['title']
-#   print ' \t ',bib_database.entries[0]['author'],'('+str(bib_database.entries[0]['year'])+')'
-
+      print ' \t ', (bib_database.entries[0]['author']).replace('\n','') ,'('+str(bib_database.entries[0]['year'])+')'
