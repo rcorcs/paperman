@@ -2,6 +2,8 @@
 
 DATA=./data
 
+mkdir -p $DATA
+
 if [ -f "$1" ]
 then
 
