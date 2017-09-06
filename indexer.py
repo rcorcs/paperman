@@ -5,7 +5,7 @@ import os
 import re
 import sys
 
-from collections import defaultdict 
+from collections import defaultdict
 from sets import Set
 
 import argparse
