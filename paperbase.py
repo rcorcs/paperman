@@ -51,7 +51,7 @@ class PaperBase:
         paper_path, bibtex_path = self.entries[paper_id]
         return Paper(paper_path, bibtex_path)
 
-    def index(self,indexAll=False):
+    def index(self,indexAll=False,re_index=[]):
         index = None
         if os.path.exists(self.path+'/index.pkl'):
             with open(self.path+'/index.pkl') as f:
@@ -59,14 +59,11 @@ class PaperBase:
                 self.__indexed_ids = index['ids']
                 self._words_index = index['words']
                 self._tags_index = index['tags']
-        re_index=[]
         if indexAll:
             re_index = self.entries.keys()
         self.__update_index(re_index)
         with open(self.path+'/index.pkl','w') as f:
-            index = {'ids':self.__indexed_ids,
-                     'words':self._words_index,
-                     'tags':self._tags_index}
+            index = {'ids':self.__indexed_ids,'tags':self._tags_index,'words':self._words_index}
             pickle.dump(index,f)
 
     def __update_index(self, re_index=[]):
@@ -76,6 +73,7 @@ class PaperBase:
             self._words_index = defaultdict(list)
         if not self._tags_index:
             self._tags_index = defaultdict(list)
+
         knownIds = [pid for pid in self.__indexed_ids if pid not in re_index]
         self.__indexed_ids = self.entries.keys()
         if set(knownIds)!=set(self.entries.keys()):
@@ -86,7 +84,9 @@ class PaperBase:
                 #words indexing
                 text = paper.text()
                 if text:
-                    for token in re.split('\W+', text):
+                    #TODO: filter stopwords and do some other text processing
+                    filtered_text = [w for w in re.split('\W+', text) if len(w)>1 and (not w.isdigit())]
+                    for token in filtered_text:
                         if paper_id not in self._words_index[token.lower()]:
                             self._words_index[token.lower()].append(paper_id)
                             #cleanup
@@ -94,11 +94,9 @@ class PaperBase:
                         self._words_index[k] = list(set(self._words_index[k]))
 
                 #tag indexing
-                tags = paper.tags()
-                if tags:
-                    for tag in paper.tags():
-                        if paper_id not in self._tags_index[tag.lower()]:
-                            self._tags_index[tag.lower()].append(paper_id)
-                            #cleanup
-                    for k in self._tags_index.keys():
-                        self._tags_index[k] = list(set(self._tags_index[k]))
+                for tag in paper.tags:
+                    if paper_id not in self._tags_index[tag.lower()]:
+                        self._tags_index[tag.lower()].append(paper_id)
+                        #cleanup
+                for k in self._tags_index.keys():
+                    self._tags_index[k] = list(set(self._tags_index[k]))

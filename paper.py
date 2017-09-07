@@ -4,13 +4,14 @@ import os.path
 import textract
 
 import bibtexparser as bibtex
+from bibtexparser.bwriter import BibTexWriter
 
 class Paper:
     __pdf_file_path = None
     __bib_file_path = None
     __bib = None
     __cached_text = None
-    note = None
+    note = ''
     tags = []
     def __init__(self, pdf_file_path, bib_file_path=None):
         self.__pdf_file_path = pdf_file_path
@@ -18,7 +19,11 @@ class Paper:
         if self.__bib_file_path and os.path.isfile(self.__bib_file_path):
             with open(self.__bib_file_path) as f:
                 self.__bib = bibtex.load(f)
-
+                if 'note' in self.__bib.entries[0].keys():
+                    self.note = self.__bib.entries[0]['note']
+                if 'tags' in self.__bib.entries[0].keys():
+                    tags = self.__bib.entries[0]['tags'].split(';')
+                    self.tags = [t.strip() for t in tags]
     def text(self):
         if not self.__cached_text:
             self.__cached_text = textract.process(self.__pdf_file_path)
@@ -43,10 +48,21 @@ class Paper:
             return self.__bib.entries[0]['author']
         return None
 
-    def tags(self):
-        if self.__bib and 'tags' in self.__bib.entries[0].keys():
-            return self.__bib.entries[0]['tags']
-        return None
+    def bibtex(self,simplified=False):
+        if not self.__bib:
+            return None
+        from copy import deepcopy
+        bib = deepcopy(self.__bib)
+        if 'note' in bib.entries[0].keys():
+            del bib.entries[0]['note']
+        if 'tags' in bib.entries[0].keys():
+            del bib.entries[0]['tags']
+        if simplified:
+            for k in ['doi','acmid','isbn', 'url','link']:
+                if k in bib.entries[0].keys():
+                    del bib.entries[0][k]
+        writer = BibTexWriter()
+        return writer.write(bib).strip()
 
     def persist(self):
         if self.__bib:
@@ -54,4 +70,4 @@ class Paper:
             self.__bib.entries[0]['tags'] = ';'.join(self.tags)
             writer = BibTexWriter()
             with open(self.__bib_file_path, 'w') as bibfile:
-                bibfile.write(writer.write(db))
+                bibfile.write(writer.write(self.__bib))

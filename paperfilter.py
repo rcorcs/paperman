@@ -16,6 +16,8 @@ class PaperView:
             answer = self.__filtered_ids
         else:
             answer = Set()
+        #TODO: filter stopwords and do some other text processing
+        filtered_words = [w for w in re.split('\W+', ' '.join(words)) if len(w)>1 and (not w.isdigit())]
         foundAny = False
         for word in words:
             if word.lower() in self.__base._words_index.keys():
