@@ -25,7 +25,8 @@ class Paper:
         return self.__cached_text
 
     def __str__(self):
-        return text()
+        #return self.text()
+        return '\t"{}"\n\t{} ({})'.format(str(self.title()),str(self.authors()),str(self.year()))
 
     def title(self):
         if self.__bib:
@@ -40,6 +41,11 @@ class Paper:
     def authors(self):
         if self.__bib:
             return self.__bib.entries[0]['author']
+        return None
+
+    def tags(self):
+        if self.__bib and 'tags' in self.__bib.entries[0].keys():
+            return self.__bib.entries[0]['tags']
         return None
 
     def persist(self):

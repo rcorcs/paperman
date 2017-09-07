@@ -1,5 +1,3 @@
-
-
 import sys
 import os
 import shutil
@@ -12,8 +10,8 @@ import configparser
 
 from paper import *
 from paperbase import *
+from paperfilter import *
 
-import indexer
 
 db = None
 
@@ -45,7 +43,7 @@ def run_add_paper():
     paper = None
 
     if args.bibtex_file:
-        paper = db.insert(args.paper_file[0],args.bibtex_file[0])
+        paper = db.insert(args.paper_file[0],args.bibtex_file)
     else:
         _, path = tempfile.mkstemp(suffix=".paperman.tmp")
         prompt_editor(path)
@@ -59,7 +57,7 @@ def run_add_paper():
     return paper
 
 def run_search():
-    print db.entries
+    #print db.entries
     parser = argparse.ArgumentParser(description='Paper Manager [search]')
     #search/list command
     parser.add_argument('--list-tags', nargs='?', const=True, default=False, help='List all known tags')
@@ -71,15 +69,33 @@ def run_search():
                           help='filter for specific years')
     parser.add_argument('--authors', metavar='<author>', type=str, nargs='+',
                           help='a list of comma separated authors to search for')
-
-
+    args = parser.parse_args(sys.argv[2:])
+    view = PaperView(db)
+    if args.words:
+        #words = list(re.split('\W+', args.words))
+        words = args.words
+        view.filterByWords(words)
+    if args.tags:
+        tags = ' '.join(args.tags)
+        tags = [tag.strip() for tag in re.split('[,;]',tags.strip())]
+        view.filterByTags(tags)
+    if args.years:
+        years = ' '.join(args.years)
+        years = list(re.split('\W+', years))
+        view.filterByYears(years)
+    if args.authors:
+        authors = ' '.join(args.authors)
+        authors = [a.strip() for a in re.split('[,;]',authors.strip())]
+        view.filterByAuthors(authors)
+    for k, paper in view.papers().items():
+        print k, paper
 
 if __name__=='__main__':
     base_path = os.environ.get('HOME','.')+'/.paperman'
     db = PaperBase(base_path)
     #print sys.argv
     parser = argparse.ArgumentParser(description='Paper Manager')
-    parser.add_argument('command', type=str, nargs=1, help='execute one of the commands: add, search, or update')
+    parser.add_argument('command', type=str, nargs=1, help='execute one of the commands:\n\tadd\n\tsearch\n\tupdate\n\topen\n\tindex')
     args = parser.parse_args(sys.argv[1:2])
     #print args.command
     cmd = args.command[0]
@@ -87,3 +103,10 @@ if __name__=='__main__':
         run_add_paper()
     elif cmd == 'search':
         run_search()
+    elif cmd == 'index':
+        db.index(indexAll=True)
+    elif cmd=='open':
+        for paper_id in sys.argv[2:]:
+            if paper_id in db.entries:
+                paper_path, _ = db.entries[paper_id]
+                call(['gvfs-open', paper_path])
