@@ -26,6 +26,12 @@ class PaperBase:
         if os.path.exists(self.path+'/entries.pkl'):
             with open(self.path+'/entries.pkl') as f:
                self.entries = pickle.load(f)
+        if os.path.exists(self.path+'/index.pkl'):
+            with open(self.path+'/index.pkl') as f:
+                index = pickle.load(f)
+                self.__indexed_ids = index['ids']
+                self._words_index = index['words']
+                self._tags_index = index['tags']
 
     def __next_id(self,paper_file=None):
         return 'p'+str(len(self.entries))
@@ -41,9 +47,24 @@ class PaperBase:
         self.entries[paper_id] = (cp_paper_file,cp_bibtex_file)
         return paper
 
+    def remove(self, paper_id):
+        if paper_id in self.entries.keys():
+           del self.entries[paper_id]
+           self.__remove_from_index(paper_id)
+
+    def __remove_from_index(self, paper_id):
+        self.__indexed_ids = list(filter((paper_id).__ne__, self.__indexed_ids))
+        for k in self._words_index.keys():
+           self._words_index[k] = list(filter((paper_id).__ne__, self._words_index[k]))
+        for k in self._tags_index.keys():
+           self._tags_index[k] = list(filter((paper_id).__ne__, self._tags_index[k]))
+
     def persist(self):
         with open(self.path+'/entries.pkl','w') as f:
            pickle.dump(self.entries,f)
+        with open(self.path+'/index.pkl','w') as f:
+            index = {'ids':self.__indexed_ids,'tags':self._tags_index,'words':self._words_index}
+            pickle.dump(index,f)
 
     def paper(self, paper_id):
         if paper_id not in self.entries.keys():
@@ -53,12 +74,12 @@ class PaperBase:
 
     def index(self,indexAll=False,re_index=[]):
         index = None
-        if os.path.exists(self.path+'/index.pkl'):
-            with open(self.path+'/index.pkl') as f:
-                index = pickle.load(f)
-                self.__indexed_ids = index['ids']
-                self._words_index = index['words']
-                self._tags_index = index['tags']
+        #if os.path.exists(self.path+'/index.pkl'):
+        #    with open(self.path+'/index.pkl') as f:
+        #        index = pickle.load(f)
+        #        self.__indexed_ids = index['ids']
+        #        self._words_index = index['words']
+        #        self._tags_index = index['tags']
         if indexAll:
             re_index = self.entries.keys()
         self.__update_index(re_index)

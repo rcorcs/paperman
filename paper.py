@@ -48,6 +48,9 @@ class Paper:
             return self.__bib.entries[0]['author']
         return None
 
+    def bibtexFile(self):
+        return self.__bib_file_path
+
     def bibtex(self,simplified=False):
         if not self.__bib:
             return None

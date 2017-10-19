@@ -59,7 +59,7 @@ def run_add_paper():
 
 def run_update():
     parser = argparse.ArgumentParser(description='Paper Manager [update]')
-    parser.add_argument('field', type=str, nargs=1, help='filed to be updated: note\ttags')
+    parser.add_argument('field', type=str, nargs=1, help='filed to be updated: note\ttags\tbibtex')
     parser.add_argument('paper_id', type=str, nargs=1, help='paper id to be updated')
     args = parser.parse_args(sys.argv[2:])
 
@@ -67,7 +67,9 @@ def run_update():
     paper_id = args.paper_id[0]
     if paper_id in db.entries.keys():
         paper = db.paper(paper_id)
-        if field   == 'note':
+        if field   == 'bibtex':
+            prompt_editor(paper.bibtexFile())
+        elif field   == 'note':
             paper.note = read_from_editor(paper.note)
         elif field == 'tags':
             tags = read_from_editor('\n'.join(paper.tags))
@@ -122,7 +124,7 @@ if __name__=='__main__':
     db = PaperBase(base_path)
     #print sys.argv
     parser = argparse.ArgumentParser(description='Paper Manager')
-    parser.add_argument('command', type=str, nargs=1, help='execute one of the commands:\n\tadd\n\tlist\n\tupdate\n\topen\n\tindex')
+    parser.add_argument('command', type=str, nargs=1, help='execute one of the commands:\n\tadd\n\tlist\n\tupdate\n\topen\n\tindex\n\tremove')
     args = parser.parse_args(sys.argv[1:2])
     #print args.command
     cmd = args.command[0]
@@ -139,3 +141,7 @@ if __name__=='__main__':
             if paper_id in db.entries:
                 paper_path, _ = db.entries[paper_id]
                 call(['gvfs-open', paper_path])
+    elif cmd=='remove':
+        for paper_id in sys.argv[2:]:
+            db.remove(paper_id)
+        db.persist()
