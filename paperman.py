@@ -18,9 +18,9 @@ db = None
 def prompt_editor(file_path):
     EDITOR = os.environ.get('EDITOR','vim') #that easy!
     initial_text = '' # if you want to set up the file somehow
-    if os.path.isfile(file_path):
-        with open(file_path) as f:
-            initial_text = f.read()
+    #if os.path.isfile(file_path):
+    #    with open(file_path) as f:
+    #        initial_text = f.read()
     call([EDITOR, file_path])
 
 def read_from_editor(initial_text=''):
