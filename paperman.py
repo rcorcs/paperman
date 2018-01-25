@@ -41,20 +41,23 @@ def run_add_paper():
     args = parser.parse_args(sys.argv[2:])
     #print args
     #print args.paper_file
+    paper_id = None
     paper = None
 
     if args.bibtex_file:
-        paper = db.insert(args.paper_file[0],args.bibtex_file)
+        paper_id, paper = db.insert(args.paper_file[0],args.bibtex_file)
     else:
         _, path = tempfile.mkstemp(suffix=".paperman.tmp")
         prompt_editor(path)
-        paper = db.insert(args.paper_file[0],path)
+        paper_id, paper = db.insert(args.paper_file[0],path)
         os.remove(path)
-    print paper.text()[:100]
-    print paper.title()
-    print paper.authors()
-    print paper.year()
+    #print paper.text()[:100]
+    #print paper.title()
+    #print paper.authors()
+    #print paper.year()
     db.persist()
+    db.fix_alias_ids()
+    print 'Paper added: ', db.get_alias_id(paper_id)
     return paper
 
 def run_update():
@@ -113,11 +116,13 @@ def run_search():
         view.filterByAuthors(authors)
     asBibtex = args.bibtex
     simplified = args.clean_output
-    for k, paper in view.papers().items():
+    db.fix_alias_ids()
+    for paper_id, paper in view.papers().items():
         if asBibtex:
             print paper.bibtex(simplified)
         else:
-            print k, paper
+            print db.suggest_label(paper)+'.1'
+            print paper
 
 if __name__=='__main__':
     base_path = os.environ.get('HOME','.')+'/.paperman'
@@ -143,5 +148,5 @@ if __name__=='__main__':
                 call(['gvfs-open', paper_path])
     elif cmd=='remove':
         for paper_id in sys.argv[2:]:
-            db.remove(paper_id)
+            db.remove(db.solve_alias_id(paper_id))
         db.persist()

@@ -14,8 +14,11 @@ from paper import *
 
 class PaperBase:
     path = None
+    
     entries = {}
+    __alias_ids = None
     __indexed_ids = None
+    __labels = None
     _words_index = None
     _tags_index = None
 
@@ -33,19 +36,40 @@ class PaperBase:
                 self._words_index = index['words']
                 self._tags_index = index['tags']
 
-    def __next_id(self,paper_file=None):
-        return 'p'+str(len(self.entries))
+    def fix_alias_ids(self):
+       self.__alias_ids = list(sorted(self.entries.keys()))
+
+    def solve_alias_id(self, aliased_id):
+       return self.__alias_ids[int(aliased_id)]
+
+    def get_alias_id(self, paper_id):
+       return self.__alias_ids.index(paper_id)
+
+    def has_label(self, label):
+       if not self.__labels:
+          self.__labels = {}
+          for paper_id in self.entries.keys():
+             paper = self.paper(paper_id)
+             self.__labels[paper.label()] = paper_id
+       return (label in self.__labels.keys())
+
+    def suggest_label(self, paper):
+       return str(re.split('\W+', paper.authors())[0].lower()) + str(paper.year())[-2:]
+
+#    def __next_id(self,paper_file=None):
+#        return 'p'+str(len(self.entries))
 
     def insert(self,paper_file, bibtex_file):
-        #paper_id = hashlib.sha256(str(len(self.entries))).hexdigest()
-        paper_id = self.__next_id()
+        import hashlib
+        paper_id = hashlib.sha256(str(len(self.entries))).hexdigest()
+        #paper_id = self.__next_id()
         cp_paper_file = self.path+'/data/'+str(paper_id)+os.path.splitext(paper_file)[1]
         cp_bibtex_file = self.path+'/data/'+str(paper_id)+'.bib'
         shutil.copyfile(paper_file, cp_paper_file)
         shutil.copyfile(bibtex_file, cp_bibtex_file)
         paper = Paper(cp_paper_file,cp_bibtex_file)
         self.entries[paper_id] = (cp_paper_file,cp_bibtex_file)
-        return paper
+        return (paper_id, paper)
 
     def remove(self, paper_id):
         if paper_id in self.entries.keys():
@@ -99,7 +123,7 @@ class PaperBase:
         self.__indexed_ids = self.entries.keys()
         if set(knownIds)!=set(self.entries.keys()):
             indexingList = sorted([pid for pid in self.entries.keys() if pid not in knownIds])
-            print 'Indexing:',' '.join([str(fid) for fid in indexingList])
+            #print 'Indexing:',' '.join([str(fid) for fid in indexingList])
             for paper_id in indexingList:
                 paper = self.paper(paper_id)
                 #words indexing

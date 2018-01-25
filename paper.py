@@ -31,7 +31,14 @@ class Paper:
 
     def __str__(self):
         #return self.text()
-        return '\t"{}"\n\t{} ({})'.format(str(self.title()),str(self.authors()),str(self.year()))
+        #return '\t"{}"\n\t{} ({})'.format(str(self.title()),str(self.authors()),str(self.year()))
+        return '{}: {} ({})\n\t"{}"'.format(str(self.label()),str(self.authors()),str(self.year()),str(self.title()))
+
+    def label(self, label):
+        self.__bib.entries[0]['ID'] = label
+
+    def label(self):
+        return self.__bib.entries[0]['ID']
 
     def title(self):
         if self.__bib:
