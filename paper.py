@@ -34,10 +34,9 @@ class Paper:
         #return '\t"{}"\n\t{} ({})'.format(str(self.title()),str(self.authors()),str(self.year()))
         return '{}: {} ({})\n\t"{}"'.format(str(self.label()),str(self.authors()),str(self.year()),str(self.title()))
 
-    def label(self, label):
-        self.__bib.entries[0]['ID'] = label
-
-    def label(self):
+    def label(self, label=None):
+        if label:
+           self.__bib.entries[0]['ID'] = label
         return self.__bib.entries[0]['ID']
 
     def title(self):
@@ -52,7 +51,7 @@ class Paper:
 
     def authors(self):
         if self.__bib:
-            return self.__bib.entries[0]['author']
+            return ' '.join(self.__bib.entries[0]['author'].split())
         return None
 
     def bibtexFile(self):
@@ -80,4 +79,7 @@ class Paper:
             self.__bib.entries[0]['tags'] = ';'.join(self.tags)
             writer = BibTexWriter()
             with open(self.__bib_file_path, 'w') as bibfile:
-                bibfile.write(writer.write(self.__bib))
+                bibtex = writer.write(self.__bib)
+                print 'Saving bib:'
+                print bibtex
+                bibfile.write(bibtex)

@@ -16,7 +16,6 @@ class PaperBase:
     path = None
     
     entries = {}
-    __alias_ids = None
     __indexed_ids = None
     __labels = None
     _words_index = None
@@ -36,15 +35,6 @@ class PaperBase:
                 self._words_index = index['words']
                 self._tags_index = index['tags']
 
-    def fix_alias_ids(self):
-       self.__alias_ids = list(sorted(self.entries.keys()))
-
-    def solve_alias_id(self, aliased_id):
-       return self.__alias_ids[int(aliased_id)]
-
-    def get_alias_id(self, paper_id):
-       return self.__alias_ids.index(paper_id)
-
     def has_label(self, label):
        if not self.__labels:
           self.__labels = {}
@@ -53,8 +43,31 @@ class PaperBase:
              self.__labels[paper.label()] = paper_id
        return (label in self.__labels.keys())
 
-    def suggest_label(self, paper):
-       return str(re.split('\W+', paper.authors())[0].lower()) + str(paper.year())[-2:]
+    def suggest_label(self, paper, update=False):
+       label = str(re.split('\W+', paper.authors())[0].lower()) + str(paper.year())[-2:]
+       if self.has_label(label) or self.has_label(label+'a'):
+         if update and self.has_label(label):
+            paper_id = self.label_to_id(label)
+            paper = self.paper(paper_id)
+            paper.label(label+'a')
+            paper.persist()
+            del self.__labels[label]
+            self.__labels[paper.label()] = paper_id
+         suffix = 'a'
+         while self.has_label(label+suffix):
+            suffix = chr(ord(suffix) + 1)
+         label = label+suffix
+       return label
+
+    def label_to_id(self, label):
+       if not self.__labels:
+          self.__labels = {}
+          for paper_id in self.entries.keys():
+             paper = self.paper(paper_id)
+             self.__labels[paper.label()] = paper_id
+       if label in self.__labels.keys():
+          return self.__labels[label]
+       return None
 
 #    def __next_id(self,paper_file=None):
 #        return 'p'+str(len(self.entries))
@@ -68,6 +81,7 @@ class PaperBase:
         shutil.copyfile(paper_file, cp_paper_file)
         shutil.copyfile(bibtex_file, cp_bibtex_file)
         paper = Paper(cp_paper_file,cp_bibtex_file)
+        paper.label(self.suggest_label(paper, True))
         self.entries[paper_id] = (cp_paper_file,cp_bibtex_file)
         return (paper_id, paper)
 

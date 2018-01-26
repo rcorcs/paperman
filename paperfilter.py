@@ -62,3 +62,13 @@ class PaperView:
             p = self.__base.paper(paper_id)
             filteredPapers[paper_id] = p
         return filteredPapers
+
+    def sorted_ids(self):
+        def compare(pid1,pid2):
+           p1 = self.__base.paper(pid1)
+           p2 = self.__base.paper(pid2)
+           if p1.year()==p2.year():
+              return cmp(p1.label(),p2.label())
+           else:
+              return cmp(p1.year(),p2.year())
+        return sorted(self.__filtered_ids, cmp=compare)

@@ -51,13 +51,13 @@ def run_add_paper():
         prompt_editor(path)
         paper_id, paper = db.insert(args.paper_file[0],path)
         os.remove(path)
+    paper.persist()
     #print paper.text()[:100]
     #print paper.title()
     #print paper.authors()
     #print paper.year()
     db.persist()
-    db.fix_alias_ids()
-    print 'Paper added: ', db.get_alias_id(paper_id)
+    print 'Paper added: ', paper.label()
     return paper
 
 def run_update():
@@ -116,12 +116,12 @@ def run_search():
         view.filterByAuthors(authors)
     asBibtex = args.bibtex
     simplified = args.clean_output
-    db.fix_alias_ids()
-    for paper_id, paper in view.papers().items():
+    items = view.papers()
+    for paper_id in view.sorted_ids():
+        paper = items[paper_id]
         if asBibtex:
             print paper.bibtex(simplified)
         else:
-            print db.suggest_label(paper)+'.1'
             print paper
 
 if __name__=='__main__':
@@ -142,11 +142,12 @@ if __name__=='__main__':
     elif cmd == 'index':
         db.index(indexAll=True)
     elif cmd=='open':
-        for paper_id in sys.argv[2:]:
+        for paper_label in sys.argv[2:]:
+            paper_id = db.label_to_id(paper_label)
             if paper_id in db.entries:
                 paper_path, _ = db.entries[paper_id]
                 call(['gvfs-open', paper_path])
     elif cmd=='remove':
-        for paper_id in sys.argv[2:]:
-            db.remove(db.solve_alias_id(paper_id))
+        for paper_label in sys.argv[2:]:
+            db.remove(db.label_to_id(paper_label))
         db.persist()
