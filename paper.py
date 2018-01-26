@@ -33,7 +33,7 @@ class Paper:
     def __str__(self):
         #return self.text()
         #return '\t"{}"\n\t{} ({})'.format(str(self.title()),str(self.authors()),str(self.year()))
-        return '{}: {} ({})\n\t"{}"'.format(str(self.label()),str(self.authors()),str(self.year()),str(self.title()))
+        return '{}:\n\t"{}"\n\t{} ({})'.format(str(self.label()),str(self.title()),str(self.authors()),str(self.year()))
 
     def label(self, label=None):
         if label:
