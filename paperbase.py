@@ -1,6 +1,6 @@
 
 import os
-#import glob
+import glob
 import shutil
 #import hashlib
 import pickle
@@ -28,7 +28,19 @@ class PaperBase:
         if os.path.exists(self.path+'/entries.pkl'):
             with open(self.path+'/entries.pkl') as f:
                self.entries = pickle.load(f)
-        if os.path.exists(self.path+'/index.pkl'):
+
+        files = glob.glob(base_path+'/data/*.bib')
+        paper_ids = [os.path.splitext(os.path.basename(path))[0] for path in files]
+        if set(paper_ids)!=set(list(self.entries.keys())):
+           self.entries = {}
+           for bibtex_file in files:
+              paper_id = os.path.splitext(os.path.basename(bibtex_file))[0]
+              paper_files = glob.glob(base_path+'/data/'+paper_id+'.*')
+              paper_file = [fn for fn in paper_files if fn!=bibtex_file][0]
+              self.entries[paper_id] = (paper_file,bibtex_file)
+           self.index(indexAll=True)
+           self.persist()
+        elif os.path.exists(self.path+'/index.pkl'):
             with open(self.path+'/index.pkl') as f:
                 index = pickle.load(f)
                 self.__indexed_ids = index['ids']
