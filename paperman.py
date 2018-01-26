@@ -51,11 +51,11 @@ def run_add_paper():
         prompt_editor(path)
         paper_id, paper = db.insert(args.paper_file[0],path)
         os.remove(path)
-    paper.persist()
     #print paper.text()[:100]
     #print paper.title()
     #print paper.authors()
     #print paper.year()
+    paper.persist()
     db.persist()
     print 'Paper added: ', paper.label()
     return paper
@@ -67,16 +67,19 @@ def run_update():
     args = parser.parse_args(sys.argv[2:])
 
     field = args.field[0]
-    paper_id = args.paper_id[0]
+    paper_id = db.label_to_id(args.paper_id[0])
     if paper_id in db.entries.keys():
         paper = db.paper(paper_id)
         if field   == 'bibtex':
-            prompt_editor(paper.bibtexFile())
+            with open(paper.bibtexFile()) as f:
+                initial_text = f.read()
+                bibtex_text = read_from_editor(initial_text)
+                paper.bibtex_str(bibtex_text)
         elif field   == 'note':
             paper.note = read_from_editor(paper.note)
         elif field == 'tags':
             tags = read_from_editor('\n'.join(paper.tags))
-            splitted_tags = [tag.strip() for tag in re.split('[\n,;]',tags.strip())]
+            splitted_tags = [tag.strip() for tag in re.split('[\n,;]+',tags.strip())]
             paper.tags = splitted_tags
         paper.persist()
         db.index(re_index=[paper_id])

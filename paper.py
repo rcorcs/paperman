@@ -1,5 +1,6 @@
 
 import os.path
+import re
 
 import textract
 
@@ -22,7 +23,7 @@ class Paper:
                 if 'note' in self.__bib.entries[0].keys():
                     self.note = self.__bib.entries[0]['note']
                 if 'tags' in self.__bib.entries[0].keys():
-                    tags = self.__bib.entries[0]['tags'].split(';')
+                    tags = re.split('[;,\n]+',self.__bib.entries[0]['tags'])
                     self.tags = [t.strip() for t in tags]
     def text(self):
         if not self.__cached_text:
@@ -54,6 +55,16 @@ class Paper:
             return ' '.join(self.__bib.entries[0]['author'].split())
         return None
 
+    def bibtex_str(self, bibtex_text=None):
+        if bibtex_text:
+           self.__bib = bibtex.loads(bibtex_text)
+        if 'note' in self.__bib.entries[0].keys():
+           self.note = self.__bib.entries[0]['note']
+        if 'tags' in self.__bib.entries[0].keys():
+           tags = re.split('[;,\n]+',self.__bib.entries[0]['tags'])
+           self.tags = [t.strip() for t in tags]
+        return self.bibtex()
+
     def bibtexFile(self):
         return self.__bib_file_path
 
@@ -80,6 +91,4 @@ class Paper:
             writer = BibTexWriter()
             with open(self.__bib_file_path, 'w') as bibfile:
                 bibtex = writer.write(self.__bib)
-                print 'Saving bib:'
-                print bibtex
                 bibfile.write(bibtex)
