@@ -1,0 +1,56 @@
+Intel: Intel Labs; Intel Corporation
+IBM: IBM Research; IBM Research Lab; IBM T.J. Watson Research Center; IBM Corporation
+Microsoft: Microsoft Research; Microsoft Corporation
+Samsung: Samsung Electronics
+NVIDIA: NVIDIA Corporation
+Oracle: Oracle Labs
+Adobe:Adobe Systems
+Compaq: Compaq Computer Corporation
+Hewlett-Packard: Hewlett-Packard Laboratories; Hewlett-Packard Labs; Hewlett-Packard Company; HP Labs
+NEC Laboratories America: NEC Labs; NEC
+MIT: Massachusetts Institute of Technology
+UCLA: University of California Los Angeles
+University of New South Wales: UNSW
+Carnegie Mellon University: CMU
+University of California Irvine: UC Irvine; University of California at Irvine
+University of California Berkeley : UC Berkeley; University of California Berkeley
+University of California San Diego: UC San Diego; University of California San Diego
+University of California Santa Barbara: UC Santa Barbara; University of California Santa Barbara
+University of California Riverside: UC Riverside; University of California Riverside
+Pennsylvania State University: Penn State; Pennsylvania State University; Penn State University
+Georgia Tech: Georgia Institute of Technology
+UNICAMP: University of Campinas
+University of Illinois Urbana-Champaign: UIUC; University of Illinois at Urbana-Champaign
+College of William & Mary: The College of William and Mary
+Polytechnic University of Catalonia: UPC Barcelona; Universitat Politecnica de Catalunya
+TU Dortmund: TU Dortmund; TU Dortmund University; Technische Universitat Dortmund
+TU Berlin: Technische Universitat Berlin
+Pacific Northwest National Lab: Pacific Northwest National Laboratory
+INRIA: INRIA Rennes; INRIA Lyon; INRIA Saclay
+Chinese Academy of Sciences:CAS
+Beijing Academy of Frontier Science & Technology: BAFST; Beijing Academy of Frontier Science and Technology
+IIT Bombay: Indian Institute of Technology Bombay; IIT Bombay
+IIT Kanpur:  Indian Institute of Technology Kanpur; IIT Kanpur
+Ulsan National Institute of Science and Technology: UNIST
+ENS Lyon: Ecole Normale Superieure de Lyon
+UMIST: University of Manchester Institute of Science and Technology
+University of Passau: Universitat Passau
+University of Vienna: Universitat Wien
+TU Wien: Technische Universitat Wien; Vienna University of Technology
+Informatics Research Institute of Toulouse: Institut de Recherche en Informatique de Toulouse
+Laboratory for Analysis and Architecture of Systems: Laboratoire d'Analyse et d'Architecture des Systemes
+North Carolina State University: NCSU
+KAIST: Korea Advanced Institute of Science and Technology
+Sungkyunkwan University: SKKU
+Universidad de Malaga: University of Malaga
+Universite de Versailles: University of Versailles
+UFRJ: Federal University of Rio de Janeiro
+University of Maryland: University of Maryland College Park
+Imperial College London: Imperial College
+EPFL: Ecole Polytechnique Federale de Lausanne
+Israel Institute of Technology: Technion
+Lawrence Livermore National Laboratory: LLNL
+Max Planck Institute for Software Systems: MPI-SWS
+Hochschule Karlsruhe: Karlsruhe University of Applied Sciences
+Goethe-Universitat: Goethe University Frankfurt
+Yahoo!: Yahoo

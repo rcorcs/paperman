@@ -1,0 +1,3114 @@
+PACT 2019
+
+MASR: A Modular Accelerator for Sparse RNNs 
+Udit Gupta (Harvard University)
+Brandon Reagen (Facebook)
+Lillian Pentecost, Marco Donato, Thierry Tambe (Harvard University)
+Alexander Rush (Harvard University)
+Gu-Yeon Wei, David Brooks (Harvard University)
+
+Gluon-Async: A Bulk-Asynchronous System for Distributed and Heterogeneous Graph Analytics 
+Roshan Dathathri, Gurbinder Gill, Loc Hoang (University of Texas at Austin)
+Hoang-Vu Dang (University of Illinois at Urbana-Champaign)
+Vishwesh Jatala (University of Texas at Austin)
+V Krishna Nandivada (Indian Institute of Technology Madras)
+Marc Snir (University of Illinois at Urbana-Champaign)
+Keshav Pingali (University of Texas at Austin)
+
+Optimizing OpenMP Nested Parallel Regions with User-Level Threads 
+Shintaro Iwasaki (The University of Tokyo)
+Halim Amer (Argonne National Laboratory)
+Kenjiro Taura (The University of Tokyo)
+Sangmin Seo, Pavan Balaji (Argonne National Laboratory)
+
+SMT-COP: Defeating Side-Channel Attacks on Execution Units in SMT Processors 
+Daniel Townley (State University of New York at Binghamton)
+Dmitry Ponomarev (State Univeristy of New York at Binghamton)
+
+
+Type-Directed Program Synthesis and Constraint Generation for Library Portability 
+Bruce Collie, Philip Ginsbach, Michael F. P. O'Boyle (The University of Edinburgh)
+
+Deepframe: A Profile-driven Compiler for Spatial Hardware Accelerators 
+Apala Guha, Naveen Vedula (Simon Fraser University)
+Arrvindh Shriraman (Simon Fraser University)
+
+Fast Parallel Equivalence Relations in a Datalog Compiler 
+Patrick Nappa, David Zhao (The University of Sydney, Australia)
+Pavle Subotic (Amazon)
+Bernhard Scholz (The University of Sydney, Australia)
+
+
+Enforcing Last-level Cache Partitioning through Memory Virtual Channels 
+Jungwook Chung (Seoul National University)
+Yuhwan Ro (Samsung Electronics)
+Joonsung Kim (Seoul National University)
+Jaehyung Ahn (POSTECH)
+Jangwoo Kim (Seoul National University)
+John Kim (KAIST)
+Jae W. Lee, Jung Ho Ahn (Seoul National University)
+
+To Stack or Not to Stack 
+Richard Afoakwa, Lejie Lu, Hui Wu, Michael Huang (University of Rochester)
+
+Enforcing Crash Consistency of Evolving Network Analytics in Non-Volatile Main Memory Systems 
+Soklong Lim (Washington State University Vancouver)
+Zaixin Lu (Amazon)
+Bin Ren (College of William and Mary)
+Xuechen Zhang (Washington State University Vancouver)
+
+
+Fooling the Sense of Cross-core Last-level Cache Eviction based Attacker by Prefetching Common Sense 
+Biswabandan Panda (IIT Kanpur)
+
+SpecShield: Shielding Speculative Data from Microarchitectural Covert Channels 
+Kristin Barber (The Ohio State University)
+Anys Bacha (University of Michigan)
+Li Zhou, Yinqian Zhang, Radu Teodorescu (The Ohio State University)
+
+
+MOSAIC: Heterogeneity-, Communication-, and Constraint-Aware Model Slicing and Execution for Accurate and Efficient Inference 
+Myeonggyun Han, Jihoon Hyun, Seongbeom Park, Jinsu Park, Woongki Baek (UNIST)
+
+Acorns: A Framework for Accelerating Deep Neural Networks with Input Sparsity 
+Xiao Dong, Lei Liu, Xiaobing Feng (Chinese Academy of Sciences)
+
+Forgive-TM: Supporting Lazy Conflict Detection In Eager Hardware Transactional Memory 
+Sunjae Park (Georgia Institute of Technology)
+Christopher Hughes (Intel)
+Milos Prvulovic (Georgia Institute of Technology)
+
+Unfair Scheduling Patterns in NUMA Architectures 
+Naama Ben-David, Ziv Scully, Guy E. Blelloch (Carnegie Mellon University)
+
+Optimizing Persistent Memory Transactions 
+Pantea Zardoshti, Tingzhe Zhou (Lehigh University)
+Yujie Liu (Google)
+Michael Spear (Lehigh University)
+
+
+HeTM: Transactional Memory for Heterogeneous Systems 
+Daniel Castro, Paolo Romano, Aleksandar Ilic (Instituto Superior Técnico & INESC-ID)
+Amin M Khan (UiT The Arctic University of Norway)
+
+Achieving scalability in a k-NN multi-GPU network service with Centaur 
+Amir Wated (Cisco)
+Alexander Libov (Amazon)
+Ohad Shacham, Edward Bortnikov (Yahoo! Labs)
+Mark Silberstein (Technion)
+
+Analyzing and Leveraging Remote-core Bandwidth for Enhanced Performance in GPUs 
+Mohamed Ibrahim, Hongyuan Liu (College of William & Mary)
+Onur Kayiran (Advanced Micro Devices)
+Adwait Jog (College of William & Mary)
+
+
+Specialization Opportunities in Graphical Workloads 
+Lewis Crawford, Michael O'Boyle (University of Edinburgh)
+
+FindeR: Accelerating FM-Index-based Exact Pattern Matching in Genomic Sequences through ReRAM technology 
+Farzaneh Zokaee (Indiana University Bloomington)
+Mingzhe Zhang (Chinese Academy of Sciences)
+Lei Jiang (Indiana University Bloomington)
+
+SLAMBooster: An Application-aware Online Controller for Approximation in Dense SLAM 
+Yan Pei (The University of Texas at Austin)
+Swarnendu Biswas (Indian Institute of Technology Kanpur)
+Donald Fussell, Keshav Pingali (The University of Texas at Austin)
+
+
+Exploring Memory Persistency Models for GPUs 
+Zhen Lin, Mohammad Alshboul (North Carolina State University)
+Yan Solihin (University of Central Florida)
+Huiyang Zhou (North Carolina State University)
+
+Adaptive Task Aggregation for High-Performance Sparse Solvers on GPUs 
+Ahmed E. Helal (Virginia Tech)
+Ashwin M. Aji, Michael L. Chu (AMD)
+Bradford M. Beckmann (Advanced Micro Devices)
+Wu-chun Feng (Virginia Tech)
+
+EDGE: Event-Driven GPU Execution 
+Tayler Hetherington, Maria Lubeznov, Deval Shah, Tor M. Aamodt (The University of British Columbia)
+
+
+Generating Performance-Portable Code for Multi-and Many-Core Architectures 
+Ari Rasch, Richard Schulze (University of Münster)
+Sergei Gorlatch (University of Muenster)
+
+Absinthe: Learning an Analytical Performance Model to Fuse and Tile Stencil Codes in One Shot 
+Tobias Gysi, Tobias Grosser, Torsten Hoefler (ETH Zurich)
+
+
+Reducing Data Movement and Energy in Multilevel Cache Hierarchies without Losing Performance: Can you have it all? 
+Jiajun Wang (University of Texas Austin)
+Prakash Ramrakhyani, Wendy Elsasser (arm Research)
+Lizy John (University of Texas Austin)
+
+Multiversioned Page Overlays: Enabling Faster Serializable Hardware Transactional Memory 
+Ziqi Wang (Carnegie Mellon University)
+Vivek Seshadri (Microsoft Research, India)
+Todd Mowry (Carnegie Mellon University)
+Michael Kozuch (Intel Labs and Carnegie Mellon University)
+
+
+Computing Three-dimensional Constrained Delaunay Refinement Using the GPU 
+Zhenghai Chen, Tiow-Seng Tan (National University of Singapore)
+
+A Synchronization-Avoiding Distance-1 Grundy Coloring Algorithm for Power-Law Graphs 
+Jesun Sahariar Firoz, Marcin Zalewski, Andrew Lumsdaine (Pacific Northwest National Lab)
+
+Accelerating DCA++ (Dynamical Cluster Approximation) Scientific Application on the Summit supercomputer 
+Giovanni Balduzzi (ETH Zurich)
+Arghya Chatterjee, Ying Wai Li, Peter Doak (Oak Ridge National Laboratory)
+Urs Haehner (ETH Zurich)
+Ed D’Azevedo, Thomas Maier (Oak Ridge National Laboratory)
+Thomas Schulthess (ETH Zurich)
+
+A Methodology for Characterizing Sparse Datasets and Its Application to SIMD Performance Prediction 
+Gangyi Zhu, Peng Jiang (The Ohio State University)
+Gagan Agrawal (Ohio State University)
+
+
+
+
+PACT 2018
+
+Massively Parallel Skyline Computation For Processing-In-Memory Architectures
+Vasileios Zois (University of California Riverside)
+Divya Gupta (UPMEM)
+Vassilis J. Tsotras (University of California Riverside)
+Walid A. Najjar (University of California Riverside)
+Jean-Francois Roy (UPMEM)
+
+Data Motifs: A Lens Towards Fully Understanding Big Data and AI Workloads
+Wanling Gao (CAS)
+Jianfeng Zhan (CAS)
+Lei Wang (CAS)
+Chunjie Luo (CAS)
+Daoyi Zheng (CAS)
+Fei Tang (CAS)
+Biwei Xie (CAS)
+Chen Zheng (CAS)
+Xu Wen (CAS)
+Xiwen He (CAS)
+Hainan Ye (BAFST)
+Rui Ren (CAS)
+
+Performance Extraction and Suitability Analysis of Multi- and Many-core Architectures for Next Generation Sequencing Secondary Analysis
+Sanchit Misra (Intel Corporation)
+Tony Pan (Georgia Institute of Technology)
+Kanak Mahadik (Adobe Systems)
+George Powley (Intel Corporation)
+Priya N. Vaidya (Intel Corporation)
+Md. Vasimuddin (Indian Institute of Technology Bombay)
+Srinivas Aluru (Georgia Institute of Technology)
+
+Synergistic Cache Layout for Reuse and Compression
+Biswabandan Panda (IIT Kanpur)
+Andre Seznec (INRIA Rennes)
+
+HyPart: A Hybrid Technique for Practical Memory Bandwidth Partitioning on Commodity Servers
+Jinsu Park, Seongbeom Park, Myeonggyun Han, Jihoon Hyun, Woongki Baek (Ulsan National Institute of Science and Technology)
+
+EAR: ECC-Aided Refresh Reduction through 2-D Zero Compression
+Jeongkyu Hong, Hyeonggyu Kim, Soontae Kim (KAIST)
+
+
+Log(Graph): A Near-Optimal High-Performance Graph Representation
+Maciej Besta, Dimitri Stanojevic, Tijana Zivic, Jagpreet Singh, Maurice Hörold, Torsten Hoefler (ETH Zurich)
+
+An Efficient Graph Accelerator with Parallel Data Conflict Management
+Pengcheng Yao, Long Zheng, Xiaofei Liao, Hai Jin (Huazhong University of Science and Technology)
+Bingsheng He (National University of Singapore)
+
+GraphPhi: Efficient Parallel Graph Processing on Emerging Throughput-oriented Architectures
+Zhen Peng, Alexander Powell (College of William and Mary)
+Bo Wu (Colorado School of Mines)
+Tekin Bicer (Argonne National Laboratory)
+Bin Ren (College of William and Mary)
+
+
+Revealing Parallel Scans and Reductions in Recurrences through Function Reconstruction
+Peng Jiang (The Ohio State University)
+Linchuan Chen (Google)
+Gagan Agrawal (The Ohio State University)
+
+Compiler Assisted Coalescing
+Sooraj Puthoor (AMD, University of Wisconsin-Madison)
+Mikko H. Lipasti (University of Wisconsin-Madison)
+
+VW-SLP: Auto-Vectorization with Adaptive Vector Width
+Vasileios Porpodas (Intel)
+Rodrigo C. O. Rocha (University of Edinburgh)
+Luis F. W. Goes (PUC Minas)
+
+
+Stencil Codes on a Vector Length Agnostic Architecture
+Adrià Armejach (Universitat Politecnica de Catalunya)
+Helena Caminal (Cornell University)
+Juan M. Cebrián (Barcelona Supercomputing Center)
+Rekai González-Alberquilla (Arm)
+Marc Casas, Miquel Moretó (Barcelona Supercomputing Center)
+Chris Adeniyi-Jones (Arm)
+Mateo Valero (Barcelona Supercomputing Center)
+
+Maximizing System Utilization via Parallelism Management for Co-Located Parallel Applications
+Younghyun Cho, Camilo Andres Celis Guzman, Bernhard Egger (Seoul National University)
+
+MemoDyn: Exploiting Weakly Consistent Data Structures for Dynamic Parallel Memoization
+Prakash Prabhu (Google)
+Stephen R. Beard, Sotiris Apostolakis (Princeton University)
+Ayal Zaks (Intel)
+David I. August (Princeton University)
+
+
+
+Architectural Support for Convolutional Neural Networks on Modern CPUs
+Animesh Jain, Michael A. Lauernzano (University of Michigan, Ann Arbor)
+Gilles Pokam (Intel)
+Jason Mars, Lingjia Tang (University of Michigan, Ann Arbor)
+
+A Portable, Automatic Data Quantizer for Deep Neural Networks
+Young H. Oh (Sungkyunkwan University)
+Quan Quan, Daeyeon Kim, Seonghak Kim, Jun Heo (Seoul National University)
+Jaeyoung Jang (Sungkyunkwan University)
+Sung Jun Jung, Jae W. Lee (Seoul National University)
+
+E-PUR: An Energy-Efficient Processing Unit for Recurrent Neural Networks
+Franyell Silfa, Gem Dot, Jose Maria Arnau, Antonio Gonzalez (Polytechnic University of Catalonia)
+
+
+Mage: Online Interference-Aware Scheduling in Multi-Scale Heterogeneous Systems
+Francisco Romero (Stanford University)
+Christina Delimitrou (Cornell University)
+
+GMOD: A Dynamic GPU Memory Overflow Detector
+Bang Di, Jianhua Sun, Hao Chen (College of Computer Science and Electronic Engineering, Hunan University)
+Dong Li (Department of Electrical Engineering and Computer Science, University of California, Merced)
+
+On-The-Fly Workload Partitioning for Integrated CPU/GPU Architectures
+Younghyun Cho (Seoul National University)
+Florian Negele (ETH Zurich)
+Seohong Park, Bernhard Egger (Seoul National University)
+Thomas R. Gross (ETH Zurich)
+
+
+
+3D-XPath: High-Density Managed DRAM Architecture with Cost-effective Alternative Paths for Memory Transactions
+Sukhan Lee (Seoul National University)
+Kiwon Lee (Samsung)
+Minchul Sung (Seoul National University)
+Mohammad Alian (UIUC)
+Chankyung Kim, Wooyeong Cho, Reum Oh, Seongil O (Samsung),Jung Ho Ahn (Seoul National University)
+Nam Sung Kim (Samsung)
+
+Attributed Consistent Hashing for Heterogeneous Storage Systems
+Jiang Zhou, Yong Chen (Texas Tech University)
+
+DART: Distributed Adaptive Radix Tree for Efficient Affix-based Keyword Search on HPC Systems
+Wei Zhang (Texas Tech University)
+Houjun Tang, Suren Byna (Lawrence Berkeley National Laboratory)
+Yong Chen (Texas Tech University)
+
+
+Cost Effective Speculation with the Omnipredictor
+Arthur Perais (Qualcomm)
+André Seznec (Inria)
+
+Towards Concurrency Race Debugging: An Integrated Approach of Constraint Solving and Dynamic Slicing
+Long Zheng, Xiaofei Liao, Hai Jin (Huazhong University of Science and Technology)
+Bingsheng He(National University of Singapore)
+Jingling Xue (University of New South Wales)
+Haikun Liu (Huazhong University of Science and Technology)
+
+Optimizing Remote Data Transfers in X10
+Arun T, V Krishna Nandivada (IIT Madras)
+
+Near-Side Prefetch Throttling: Adaptive Prefetching for High-Performance Many-Core Processors
+Wim Heirman, Kristof Du Bois, Yves Vandriessche, Stijn Eyerman, Ibrahim Hur (Intel Corporation)
+
+
+ComP-Net: Command Processor Networking for Efficient Intra-kernel Communications on GPUs
+Michael LeBeane (UT Austin)
+Khaled Hamidouche, Brad Benton (AMD)
+Mauricio Breternitz (Instituto Universitario de Lisboa)
+Steven K. Reinhardt (Microsoft)
+Lizy K. John (UT Austin)
+
+Cimple: Instruction and Memory Level Parallelism DSL
+Vladimir Kiriansky, Haoran Xu, Martin Rinard, Saman Amarasinghe (MIT)
+
+Automatic Identification and Annotation of Tasks in Structured Programs
+Pedro Ramos, Gleison Mendonça, Guilherme Leobas (UFMG)
+Divino César, Guido Araújo (Unicamp)
+Fernando Magno Quintão Pereira (UFMG)
+
+Cost-Driven Thread Coarsening for GPU kernels
+Prithayan Barua, Jun Shirako, Vivek Sarkar (Georgia Institute of Technology)
+
+
+Transactional Pre-abort Handlers in Hardware Transactional Memory
+Sunjae Park (Georgia Institute of Technology)
+Christopher J. Hughes (Intel)
+Milos Prvulovic (Georgia Institute of Technology)
+
+In-DRAM Near-Data Approximate Acceleration for GPUs
+Amir Yazdanbakhsh (Georgia Institute of Technology)
+Choungki Song (University of Wisconsin-Madison)
+Jacob Sacks (Georgia Institute of Technology)
+Pejman Lotfi-Kamran (Institute for Research in Fundamental Sciences, Iran)
+Nam Sung Kim (University of Illinois at Urbana-Champaign)
+Hadi Esmaeilzadeh (University of California San Diego)
+
+Biased Reference Counting: Limiting Atomic Operations in Reference Counting
+Jiho Choi, Thomas Shull, Josep Torrellas (University of Illinois at Urbana-Champaign)
+
+Hybrid Optimization/Heuristic Instruction Scheduling for Programmable Accelerator Codesign
+Tony Nowatzki (UCLA)
+Newsha Ardalani (University of Wisconsin-Madison)
+Jian Weng (UCLA)
+Karthikeyan Sankaralingam (University of Wisconsin-Madison)
+
+
+PACT 2017
+
+
+
+RCU-HTM: Combining RCU with HTM to Implement Highly Efficient Concurrent Binary Search Trees
+Dimitrios Siakavaras, Konstantinos Nikas, Georgios Goumas, Nectarios Koziris (National Technical University of Athens)
+
+
+Redesigning Go's Built-In Map to Support Concurrent Operations
+Louis Jenkins (Bloomsburg University)
+Tingzhe Zhou, Michael Spear (Lehigh University)
+
+
+MultiGraph: Efficient Graph Processing on GPUs
+Changwan Hong, Aravind Sukumaran-Rajam, Jinsung Kim, P. Sadayappan (The Ohio State University)
+
+
+An Ultra Low-Power Hardware Accelerator for Acoustic Scoring in Speech Recognition
+Hamid Tabani, Jose-Maria Arnau, Jordi Tubella, Antonio González (Universitat Politecnica de Catalunya)
+
+
+
+DrMP: Mixed Precision-Aware DRAM for High Performance Approximate and Precise Computing
+Xianwei Zhang, Youtao Zhang, Bruce R. Childers, Jun Yang (University of Pittsburgh)
+
+
+
+SAM: Optimizing Multithreaded Cores for Speculative Parallelism
+Maleen Abeydeera, Suvinay Subramanian, Mark C. Jeffrey,  Daniel Sanchez (MIT)
+Joel Emer (NVIDIA)
+
+
+
+Performance Improvement via Always-Abort HTM
+Joseph Izraelevitz, Michael L. Scott (University of Rochester)
+Lingxiang Xiang (Intel)
+
+
+DRUT: An Efficient Turbo Boost Solution via Load Balancing in Decoupled Look-Ahead Architecture
+Raj Parihar (Cadence Design Systems)
+Michael C. Huang (University of Rochester)
+
+
+
+Proxy Benchmarks for Emerging Big-Data Workloads
+Reena Panda, Lizy Kurian John (University of Texas at Austin)
+
+
+Lightweight Provenance Service for High-Performance Computing
+Dong Dai, Yong Chen (Texas Tech University)
+Philip Carns, John Jenkins, Robert Ross (Argonne National Laboratory)
+
+
+
+
+Nexus: A New Approach to Replication in Distributed Shared Caches
+Po-An Tsai (MIT)
+Nathan Beckmann (CMU)
+Daniel Sanchez (MIT)
+
+
+Leeway: Addressing Variability in Dead-Block Prediction for Last-Level Caches
+Priyank Faldu, Boris Grot (University of Edinburgh)
+
+
+
+Application Clustering Policies to Address System Fairness with Intel's Cache Allocation Technology
+Vicent Selfa, Julio Sahuquillo, Salvador Petit, María E. Gómez (Universitat Politecnica de Valencia, Spain)
+Lieven Eeckhout (Ghent University)
+
+
+
+Transparent Dual Memory Compression Architecture
+Seikwon Kim (Samsung)
+Seonyoung Lee, Taehoon Kim, Jaehyuk Huh (KAIST)
+
+
+
+End-to-End Deep Learning of Optimization Heuristics
+Chris Cummins, Pavlos Petoumenos, Hugh Leather  (University of Edinburgh)
+Zheng Wang (Lancaster University)
+
+
+
+Graphie: Large-Scale Asynchronous Graph Traversals on Just a GPU
+Wei Han, Daniel Mawhirter, Bo Wu (Colorado School of Mines)
+Matthew Buland (Salesforce)
+
+
+A GPU-Friendly Skiplist Algorithm
+Nurit Moscovici, Nachshon Cohen (Technion)
+Erez Petrank (EPFL)
+
+
+Sthira: A Formal Approach to Minimize Voltage Guardbands under Variation in Networks-on-Chip for Energy Efficiency
+Raghavendra Pradyumna Pothukuchi,  Bhargava Gopireddy, Josep Torrellas (UIUC)
+Amin Ansari (Qualcomm)
+
+
+Avoiding TLB Shootdowns Through Self-Invalidating TLB Entries
+Amro Awad (University of Central Florida)
+Arkaprava Basu, Sergey Blagodurov, Gabriel H. Loh (Advanced Micro Devices)
+Yan Solihin (North Carolina State University)
+
+
+
+Weak Memory Models: Balancing Definitional Simplicity and Implementation Flexibility
+Sizhuo Zhang, Muralidaran Vijayaraghavan, Arvind Mithal (MIT)
+
+
+
+Near-Memory Address Translation
+Javier Picorel, Babak Falsafi (EPFL)
+Djordje Jevdjic (Microsof)
+
+
+Efficient Checkpointing of Loop-Based Codes for Non-volatile Main Memory
+Hussein Elnawawy, Mohammad Alshboul, James Tuck, Yan Solihin (North Carolina State University)
+
+
+
+SuperGraph-SLP Auto-Vectorization
+Vasileios Porpodas (Intel)
+
+
+
+Exploiting Asymmetric SIMD Register Configurations in ARM-to-x86 Dynamic Binary Translation
+Yu-Ping Liu, Sheng-Yu Fu, Wei-Chung Hsu (National Taiwan University)
+Ding-Yong Hong, Jan-Jan Wu (Academia Sinica)
+
+
+A Generalized Framework for Automatic Scripting Language Parallelization
+Taewook Oh, Stephen R. Beard, Nick P. Johnson, Sergiy Popovych, David I. August (Princeton University)
+
+
+
+
+PACT 2016
+
+Characterizing and Optimizing the Performance of Multithreaded Programs Under Interference
+Yong Zhao, Jia Rao, Qing Yi (University of Colorado)
+
+Scheduling Techniques for GPU Architectures with Processing-In-Memory Capabilities 
+Ashutosh Pattnaik, Xulong Tang (Penn State)
+Adwait Jog (College of William & Mary)
+Onur Kayiran (AMD Research)
+Asit K. Mishra (Intel)
+Mahmut T. Kandemir (Penn State)
+Onur Mutlu (CMU)
+Chita R. Das (Penn State)
+
+Fine-grain Datapath Management for Scale-up GPUs
+Onur Kayiran (AMD Research)
+Adwait Jog (College of William & Mary)
+Ashutosh Pattnaik (Penn State)
+Rachata Ausavarungnirun (CMU)
+Xulong Tang, Mahmut T. Kandemir (Penn State)
+Gabriel H. Loh (AMD Research)
+Onur Mutlu (CMU)
+Chita R. Das (Penn State)
+
+An Optimized Time Traveling Coherence Protocol
+Xiangyao Yu (MIT)
+Hongzhe Liu (Algonquin Regional High School)
+Ehan Zou (Lexington High School)
+Srinivas Devadas (MIT) 
+
+Sparso: Context-driven Optimizations of Sparse Linear Algebra
+Hongbo Rong, Jongsoo Park, Lingxiang Xiang, Todd A Anderson, Mikhail Smelyanskiy (Intel Labs) 
+
+Bridging the Semantic Gaps of GPU Acceleration for Scale-out CNN-based Big Data Processing: Think Big, See Small
+Mingcong Song, Yang Hu (University of Florida)
+Yunlong Xu (Xi'an Jiaotong University)
+Chao Li (Shanghai Jiao Tong University)
+Huixiang Chen, Tao Li, Huixiang Chen (University of Florida)
+
+Fusion of Parallel Array Operations
+Mads R. B. Kristensen, Troels Blum, Simon A. F. Lund, James Avery (University of Copenhagen) 
+
+Scalable Task Parallelism for NUMA: A Uniform Abstraction for Coordinated Scheduling and Memory Management
+Andi Drebes, Antoniu Pop (University of Manchester)
+Karine Heydemann (UPMC)
+Albert Cohen (INRIA)
+Nathalie Drach (UPMC)
+
+OAWS: Memory Occlusion Aware Warp Scheduling
+Bin Wang, Yue Zhu, Weikuan Yu (Florida State University) 
+
+Optimizing Indirect Memory References with milk
+Vladimir Kiriansky, Yunming Zhang, Saman Amarasinghe (MIT)
+
+Hash Map Linearization
+Dibakar Gope, Mikko H. Lipasti (University of Wisconsin-Madison)
+
+Reduction Drawing: Language Constructs and Polyhedral Compilation for Reductions on GPUs
+Chandan Reddy, Michael Kruse, Albert Cohen (INRIA)
+
+Combating the Reliability Challenge of GPU Register File at Low Supply Voltage
+Jingweijia Tan (University of Houston)
+Shuaiwen Leon Song (Pacific Northwest National Laboratory)
+Kaige Yan, Xin Fu (University of Houston)
+Andres Marquez, Darren Kerbyson (Pacific Northwest National Laboratory)
+
+Automatically Exploiting Implicit Pipeline Parallelism from Multiple Dependent Kernels for GPUs
+Gwangsun Kim, Jiyun Jeong, John Kim (KAIST)
+Mark Stephenson (NVIDIA)
+
+Energy Aware Persistence: Reducing Energy Overheads of Memory-based Persistence in NVMs
+Sudarsun Kannan, Moinuddin Qureshi, Ada Gavrilovska, Karsten Schwan (Georgia Tech.)
+
+CAF: Core to Core Communication Acceleration Framework
+Yipeng Wang (NCSU)
+Ren Wang, Andrew Herdrich, James Tsai (Intel)
+Yan Solihin (NCSU) 
+
+EXCITE-VM: Extending the Virtual Memory System to Support Snapshot Isolation Transactions
+Heiner Litz, Benjamin Braun, David Cheriton (Stanford University) 
+
+WearCore: A Core for Wearable Workloads
+Sanyam Mehta, Josep Torrellas (UIUC)
+Auto-tuning Spark Big Data Workloads on POWER8: Prediction-Based Dynamic SMT Threading 
+Zhen Jia (Chinese Academy of Sciences)
+Chao Xue (IBM Research-China)
+Jianfeng Zhan, Lixin Zhang (Chinese Academy of Sciences)
+Yonghua Lin (IBM Research-China)
+Peter Hofstee (IBM Research-Austin) 
+
+Accelerating Linked-list Traversal through Near-Data Processing
+Byungchul Hong, Gwangsun Kim (KAIST)
+Jung Ho Ahn (Seoul National University)
+Yongkee Kwon, Hongsik Kim (SK Hynix)
+John Kim (KAIST)
+
+Speculatively Exploiting Cross-Invocation Parallelism
+Jialu Huang, Prakash Prabhu (Google)
+Thomas B. Jablin (UIUC)
+Soumyadeep Ghosh (Princeton University)
+Jae W. Lee (SKKU)
+David I. August (Princeton University) 
+
+Online Scalability Characterization of Data-Parallel Programs on Many Cores
+Younghyun Cho, Surim Oh, Bernhard Egger (Seoul National University) 
+
+Power Tuning HPC Jobs on Power-constrained Systems
+Neha Gholkar, Frank Mueller (NCSU)
+Barry Rountree (Lawrence Livermore National Laboratory)
+
+Reducing Cache Coherence Traffic with Hierarchical Directory Cache and NUMA-Aware Runtime Scheduling
+Paul Caheny, Marc Casas, Miquel Moret, Eduard Ayguade, Jesus Labarta, Mateo Valero (UPC & BSC)
+Herv e Gloaguen, Maxime Saintes (Bull Atos Technologies) 
+
+Integrating algorithmic parameters into benchmarking and design space exploration in dense 3D scene understanding
+Bruno Bodin (University of Edinburgh)
+Luigi Nardi, Zia Zeeshan (Imperial College London)
+Harry Wagstaff, Govind Sreekar Shenoy, Murali Emani (University of Edinburgh)
+John Mawer, Christos Kotselidis, Andy Nisbet, Mikel Lujan (University of Manchester)
+Bjorn Franke (University of Edinburgh)
+Paul Kelly (Imperial College London)
+Michael O'Boyle (University of Edinburgh)
+
+Rinnegan: Efficient Resource Use in Heterogeneous Architectures
+Sankaralingam Panneerselvam, Michael Swift (University of Wisconsin-Madison) 
+
+MicroSpec: Speculation-Centric Fine-Grained Parallelism for FSM Computations
+Junqiao Qiu, Zhijia Zhao (UC Riverside)
+Bin Ren (Pacific Northwest National Laboratory) 
+
+Vectorization for Multibyte Floating Point Formats
+Andrew Anderson, David Gregg (Trinity College Dublin) 
+
+Resource Conscious Reuse-Driven Tiling for GPUs
+Prashant Singh Rawat, Changwan Hong (Ohio State University)
+Mahesh Ravishankar, Vinod Grover (NVIDIA)
+Louis-Noel Pouchet, Atanas Rountev, P. Sadayappan (Ohio State University) 
+
+A Static Cut-off for Task Parallel Programs
+Shintaro Iwasaki, Kenjiro Taura (University of Tokyo)
+
+A DSL Compiler for Accelerating Image Processing Pipelines for FPGAs
+Nitin Chugh, Suresh Purini (IIIT Hyderabad)
+Vinay Vasista, Uday Bondhugula (Indian Institute of Science)
+
+PACT 2015
+
+
+
+Phase Aware Warp Scheduling: Mitigating Effects of Phase Behavior in GPGPU Applications
+Mihir Awatramani, Xian Zhu, Joseph Zambreno, Diane Rover (Iowa State University)
+
+
+NVMMU: A Non-volatile Memory Management Unit for Heterogeneous GPU-SSD Architectures
+Jie Zhang, Myoungsoo Jung (Yonsei University)
+David Donofrio, John Shalf (Lawrence Berkeley National Laboratory)
+Mahmut T. Kandemir (Pennsylvania State University)
+
+Exploiting Inter-Warp Heterogeneity to Improve GPGPU Performance
+Rachata Ausavarungnirun, Saugata Ghose, Onur Mutlu (Carnegie Mellon University)
+Gabriel H. Loh (Advanced Micro Devices)
+Onur Kayiran, Chita R. Das, Mahmut T. Kandemir (Pennsylvania State University)
+
+Scalable SIMD-Efficient Graph Processing on GPUs
+Farzad Khorasani, Rajiv Gupta, Laxmi N. Bhuyan (University of California Riverside)
+
+
+Parallel Methods for Verifying the Consistency of Weakly-Ordered Architectures
+Adam McLaughlin, David A. Bader (Georgia Institute of Technology)
+Duane Merrill, Michael Garland (NVIDIA)
+
+Stadium Hashing: Scalable and Flexible Hashing on GPUs
+Farzad Khorasani, Mehmet E. Belviranli, Rajiv Gupta, Laxmi N. Bhuyan (University of California Riverside)
+
+
+
+TSXProf: Profiling Hardware Transactions
+Yujie Liu, Michael Spear (Lehigh University)
+Justin Gottschlich, Gilles Pokam (Intel)
+
+ALEA: Fine-Grain Energy Profiling with Basic Block Sampling
+Lev Mukhanov, Dimitrios S. Nikolopoulos, Bronis R. de Supinski (Queen's University of Belfast)
+
+
+Towards General-Purpose Neural Network Computing
+Schuyler Eldridge, Jonathan Appavoo, Ajay Joshi (Boston University)
+Amos Waterland, Margo Seltzer (Harvard University)
+
+Practical Near-Data Processing for In-Memory Analytics Frameworks
+Mingyu Gao, Grant Ayers, Christos Kozyrakis (Stanford University)
+
+
+
+
+Scalable Task Scheduling and Synchronization Using Hierarchical Effects
+Stephen T. Heumann, Alexandros Tzannes, Vikram S. Adve (UIUC)
+
+
+
+PENCIL: A Platform-Neutral Compute Intermediate Language for Accelerator Programming
+Riyadh Baghdadi, Ulysse Beaugnon, Albert Cohen, Tobias Grosser, Michael Kruse, Chandan Reddy, Sven Verdoolaege (INRIA)
+Adam Betts, Alastair F. Donaldson, Jeroen Ketema (Imperial College London)
+Javed Absar, Sven van Haastregt, Alexey Kravets, Anton Lokhmotov (ARM)
+Robert David, Elnar Hajiyev (Realeyes)
+
+
+Communication Avoiding Algorithms: Analysis and Code Generation for Parallel Systems
+Karthik Murthy, John Mellor-Crummey (Rice University)
+
+
+
+Exploiting Program Semantics to Place Data in Hybrid Memory
+Wei Wei, Dejun Jiang, Jin Xiong, Mingyu Chen (Chinese Academy of Sciences)
+Sally A. McKee (Chalmers University of Technology)
+
+
+Decoupled Direct Memory Access: Isolating CPU and IO Traffic by Leveraging a Dual-Data-Port DRAM
+Donghyuk Lee, Lavanya Subramanian, Rachata Ausavarungnirun, Onur Mutlu (Carnegie Mellon University)
+Jongmoo Choi (Dankook University)
+
+
+A Software-Managed Approach to Die-Stacked DRAM
+Mark Oskin, Gabriel H. Loh (AMD)
+
+An Algorithmic Approach to Communication Reduction in Parallel Graph Algorithms
+Harshvardhan, Adam Fidel, Nancy M. Amato, Lawrence Rauchwerger (Texas A&M University)
+
+
+Polyhedral Optimizations of Explicitly Parallel Programs
+Prasanth Chatarasi, Jun Shirako, Vivek Sarkar (Rice University)
+
+
+Tardis: Time Traveling Coherence Algorithm for Distributed Shared Memory
+Xiangyao Yu, Srinivas Devadas (MIT)
+
+
+BSSync: Processing Near Memory for Machine Learning Workloads with Bounded Staleness Consistency Models
+Joo Hwan Lee, Jaewoong Sim, Hyesoon Kim (Georgia Institute of Technology)
+
+
+
+Runtime Value Numbering: A Profiling Technique to Pinpoint Redundant Computations
+Shasha Wen, Xu Liu (College of William and Mary)
+Milind Chabbi (Rice University)
+
+Tracking and Reducing Uncertainty in Dataflow Analysis-Based Dynamic Parallel Monitoring
+Michelle L. Goodstein, Phillip B. Gibbons, Todd C. Mowry (Carnegie Mellon University)
+Michael A. Kozuch (Intel)
+
+
+Compiler Assisted Load Balancing on Large Clusters
+Vinit Deodhar, Hrushit Parikh, Ada Gavrilovska, Santosh Pande (Georgia Institute of Technology)
+
+
+RC3: Consistency Directed Cache Coherence for x86-64 with RC Extensions
+Marco Elver, Vijay Nagarajan (University of Edinburgh)
+
+
+Fine Grain Cache Partitioning Using Per-Instruction Working Blocks
+Jason Jong Kyu Park, Scott Mahlke (University of Michigan)
+Yongjun Park (Hongik University)
+
+An Efficient, Self-Contained, On-chip Directory: DIR1-SISD
+Mahdad Davari, Erik Hagersten, Stefanos Kaxiras (Uppsala University)
+Alberto Ros (University of Murcia)
+
+Dealing with the Unknown: Resilience to Prediction Errors
+Subrata Mitra, Suhas Javagal, Saurabh Bagchi (Purdue University)
+Greg Bronevetsky (Google)
+
+Exploiting Staleness for Approximating Loads on CMPs
+Prasanna Venkatesh Rengasamy, Anand Sivasubramaniam, Mahmut T. Kandemir, Chita R. Das (Pennsylvania State University)
+
+
+Orchestrating Multiple Data-Parallel Kernels on Multiple Devices
+Janghaeng Lee, Mehrzad Samadi, Scott Mahlke (University of Michigan)
+
+
+AREP: Adaptive Resource Efficient Prefetching for Maximizing Multicore Performance
+Muneeb Khan, Erik Hagersten, David Black-Schaffer (Uppsala University)
+Michael A. Laurenzano, Jason Mars (University of Michigan)
+
+Runtime-Guided Management of Scratchpad Memories in Multicore Architectures
+Lluc Alvarez, Miquel Moretó, Emilio Castillo, Xavier Martorell, Jesús Labarta, Eduard Ayguadé, Mateo Valero (Universitat Politecnica de Catalunya)
+Marc Casas (Barcelona Supercomputing Center)
+
+OSPREY: Implementation of Memory Consistency Models for Cache Coherence Protocols involving Invalidation-Free Data Access
+George Kurian, Srinivas Devadas (MIT)
+Qingchuan Shi, Omer Khan (University of Connecticut)
+
+
+Vector Parallelism in JavaScript: Language and Compiler Support for SIMD
+Ivan Jibaja (University of Texas at Austin)
+Peter Jensen, Ningxin Hu, Mohammad R. Haghighat (Intel)
+John McCutchan (Google)
+Dan Gohman (Mozilla)
+Stephen M. Blackburn (Australian National University)
+Kathryn S. McKinley (Microsoft)
+
+
+Compiling and Optimizing Java 8 Programs for GPU Execution
+Kazuaki Ishizaki, Gita Koblents (IBM)
+Akihiro Hayashi, Vivek Sarkar (Rice University)
+
+
+Throttling Automatic Vectorization: When Less is More
+Vasileios Porpodas, Timothy M. Jones (University of Cambridge)
+
+
+Evaluating the Cost of Atomic Operations on Modern Architectures
+Hermann Schweizer, Maciej Besta, Torsten Hoefler (ETH Zurich)
+
+
+
+MeToo: Stochastic Modeling of Memory Traffic Timing Behavior
+Yipeng Wang, Yan Solihin (North Carolina State University)
+Ganesh Balakrishnan (Advanced Micro Devices)
+
+Using Compiler Techniques to Improve Automatic Performance Modeling
+Arnamoy Bhattacharyya, Grzegorz Kwasniewski, Torsten Hoefler (ETH Zurich)
+
+
+
+
+
+PACT 2014
+
+VIRTUES AND LIMITATIONS OF COMMODITY HARDWARE TRANSACTIONAL MEMORY
+Nuno Diegues (University of Lisbon)
+Paolo Romano (University of Lisbon)
+Luís Rodrigues (University of Lisbon)
+
+COOPERATIVE CACHE SCRUBBING
+Jennifer B. Sartor (Ghent University)
+Wim Heirman (Ghent University)
+Stephen M. Blackburn (Australia National University)
+Lieven Eeckhout (Ghent University)
+Kathryn S. McKinley (Microsoft)
+
+KLA: A NEW ALGORITHMIC PARADIGM FOR PARALLEL GRAPH COMPUTATIONS
+Harshvardhan (Texas A&M University)
+Adam Fidel (Texas A&M University)
+Nancy M. Amato (Texas A&M University)
+Lawrence Rauchwerger (Texas A&M University)
+
+TILING AND OPTIMIZING TIME-ITERATED COMPUTATIONS OVER PERIODIC DOMAINS
+Uday Bondhugula (Indian Institute of Science)
+Vinayaka Bandishti (Indian Institute of Science)
+Albert Cohen (INRIA)
+Guillain Potron (ENS Lyon)
+Nicolas Vasilache (Reservoir Labs)
+
+ATCACHE: REDUCING DRAM-CACHE LATENCY VIA A SMALL SRAM TAG CACHE
+Cheng-Chieh Huang (University of Edinburgh)
+Vijay Nagarajan (University of Edinburgh)
+
+SPONGEDIRECTORY: FLEXIBLE SPARSE DIRECTORIES UTILIZING MULTI-LEVEL MEMRISTORS
+Lunkai Zhang (Chinese Academy of Sciences)
+Dmitri Strukov (UC Santa Barbara)
+Hebatallah Saadeldeen (UC Santa Barbara)
+Dongrui Fan (Chinese Academy of Sciences)
+Mingzhe Zhang (Chinese Academy of Sciences)
+Diana Franklin (UC Santa Barbara)
+
+
+EFETCH: OPTIMIZING INSTRUCTION FETCH FOR EVENT-DRIVEN WEB APPLICATIONS
+Gaurav Chadha (University of Michigan)
+Scott Mahlke (University of Michigan)
+Satish Narayanasamy (University of Michigan)
+
+
+XSTREAM: CROSS-CORE SPATIAL STREAMING BASED MLC PREFETCHERS FOR PARALLEL APPLICATIONS IN CMPS
+Biswabandan Panda (IIT Madras, India)
+Shankar Balachandran (IIT Madras, India)
+
+WHAT IS THE COST OF WEAK DETERMINISM?
+Cedomir Segulja (University of Toronto)
+Tarek Abdelrahman (University of Toronto)
+
+ILP AND TLP IN SHARED MEMORY APPLICATIONS: A LIMIT STUDY
+Ehsan Fatehi (Texas A&M University)
+Paul V. Gratz (Texas A&M University)
+
+
+VERSATILE AND SCALABLE PARALLEL HISTOGRAM CONSTRUCTION
+Wookeun Jung (Seoul National University)
+Jongsoo Park (Intel Corporation)
+Jaejin Lee (Seoul National University)
+
+BITWISE DATA PARALLELISM IN REGULAR EXPRESSION MATCHING
+Rob Cameron (Simon Fraser University)
+Tom Shermer (Simon Fraser University)
+Arrvindh Shriraman (Simon Fraser University)
+Ken Herdy (Simon Fraser University)
+Dan Lin (Simon Fraser University)
+Ben Hull (Simon Fraser University)
+Meng Lin (Simon Fraser University)
+
+
+
+ADAPTIVE HETEROGENEOUS SCHEDULING ON INTEGRATED GPUS
+Rashid Kaleem (UT-Austin)
+Raj Barik (Intel Labs)
+Tatiana Shpeisman (Intel Labs)
+Brian T. Lewis (Intel Labs)
+Chunling Hu (Intel Labs)
+Keshav Pingali (UT-Austin)
+
+WARP-AWARE TRACE SCHEDULING FOR GPUS
+James Jablin (Brown University)
+Thomas Jablin (UIUC)
+Onur Mutlu (CMU)
+Maurice Herlihy (Brown University)
+
+CAWS: CRITICALITY-AWARE WARP SCHEDULING FOR GPGPU WORKLOADS
+Shin-Ying Lee (Arizona State University)
+Carole-Jean Wu (Arizona State University)
+
+INVYSWELL: A HYBRID TRANSACTIONAL MEMORY FOR HASWELL'S RESTRICTED TRANSACTIONAL MEMORY
+Irina Calciu (Brown University)
+Justin Gottschlich (Intel Labs)
+Tatiana Shpeisman (Intel Labs)
+Gilles Pokam (Intel Labs)
+Maurice Herlihy (Brown University)
+
+CONSOLIDATED CONFLICT DETECTION IN HARDWARE TRANSACTIONAL MEMORY
+Lihang Zhao (University of Southern California)
+Jeffrey Draper (University of Southern California)
+
+DESTM: HARNESSING DETERMINISM IN STMS FOR APPLICATION DEVELOPMENT
+Kaushik Ravichandran (Georgia Institute of Technology)
+Ada Gavrilovska (Georgia Institute of Technology)
+Santosh Pande (Georgia Institute of Technology)
+
+
+PATTERN AWARE SCHEDULING AND POWER GATING FOR GPGPUS
+Qiumin Xu (University of Southern California)
+Murali Annavaram (University of Southern California)
+
+HETEROGENEOUS MICROARCHITECTURES TRUMP VOLTAGE SCALING FOR LOW-POWER CORES
+Andrew Lukefahr (University of Michigan)
+Shruti Padmanabha (University of Michigan)
+Reetuparna Das (University of Michigan)
+Ronald Dreslinski Jr. (University of Michigan)
+Thomas F. Wenisch (University of Michigan)
+Scott Mahlke (University of Michigan)
+
+RCS: RUNTIME RESOURCE AND CORE SCALING FOR POWER-CONSTRAINED MULTI-CORE PROCESSORS
+Hamid Reza Ghasemi (University of Wisconsin-Madison)
+Nam Sung Kim (AMD Research)
+
+
+
+REALM: AN EVENT-BASED LOW-LEVEL RUNTIME FOR DISTRIBUTED MEMORY ARCHITECTURES
+Sean Treichler (Stanford University)
+Michael Bauer (Stanford University)
+Alex Aiken (Stanford University)
+
+KMAF: AUTOMATIC KERNEL-LEVEL MANAGEMENT OF THREAD AND DATA AFFINITY
+Matthias Diener (Federal University of Rio Grande do Sul)
+Eduardo H. M. Cruz (Federal University of Rio Grande do Sul)
+Philippe O. A. Navaux (Federal University of Rio Grande do Sul)
+Anselm Busse (Technische Universitat Berlin)
+Hans-Ulrich Heiss (Technische Universitat Berlin)
+
+SHUFFLING: A FRAMEWORK FOR LOCK CONTENTION AWARE THREAD SCHEDULING FOR MULTICORE MULTIPROCESSOR SYSTEMS
+Kishore Kumar Pusukuri (University of California Riverside)
+Rajiv Gupta (University of California Riverside)
+Laxmi N. Bhuyan (University of California Riverside)
+
+
+OPENTUNER: AN EXTENSIBLE FRAMEWORK FOR PROGRAM AUTOTUNING
+Jason Ansel (MIT)
+Shoaib Kamil (MIT)
+Kalyan Veeramachaneni (MIT)
+Jonathan Ragan-Kelley (MIT)
+Jeffrey Bosboom (MIT)
+Una-May O'Reilly (MIT)
+Saman Amarasinghe (MIT)
+
+VELOCIRAPTOR: AN EMBEDDED COMPILER TOOLKIT FOR NUMERICAL PROGRAMS TARGETING CPUS AND GPUS
+Rahul Garg (McGill University)
+Laurie Hendren (McGill University)
+
+MEMORY SCHEDULING TOWARDS HIGH-THROUGHPUT COOPERATIVE HETEROGENEOUS COMPUTING
+Hao Wang (University of Wisconsin-Madison)
+Ripudaman Singh (University of Wisconsin-Madison)
+Michael Schulte (AMD Research)
+Nam Sung Kim (AMD Research)
+
+BOUNDED MEMORY SCHEDULING OF DYNAMIC TASK GRAPHS
+Dragos Sbirlea (Rice University)
+Zoran Budimlic (Rice University)
+Vivek Sarkar (Rice University)
+
+
+TRADING CACHE HIT RATE FOR MEMORY PERFORMANCE
+Wei Ding (Penn State)
+Mahmut Kandemir (Penn State)
+Diana Guttman (Penn State)
+Adwait Jog (Penn State)
+Chita R. Das (Penn State)
+Praveen Yedlapalli (Penn State)
+
+COMPILER SUPPORT FOR SELECTIVE PAGE MIGRATION IN NUMA ARCHITECTURES
+Guilherme Piccoli (UNICAMP)
+Henrique Nazare Santos (UFMG)
+Raphael Rodrigues (UFMG)
+Christiane Pousa (ETH Zurich)
+Edison Borin (UNICAMP)
+Fernando Magno Quintao Pereira (UFMG)
+
+COLORIS: A DYNAMIC CACHE PARTITIONING SYSTEM USING PAGE COLORING
+Ying Ye (Boston University)
+Richard West (Boston University)
+Zhuoqun Cheng (Boston University)
+Ye Li (Boston University)
+
+
+
+PEMOGEN:AUTOMATIC ADAPTIVE PERFORMANCE MODELING DURING PROGRAM RUNTIME
+Arnamoy Bhattacharyya (ETH Zurich)
+Torsten Hoefler (ETH Zurich)
+
+ARRAYTOOL: A LIGHTWEIGHT PROFILER TO GUIDE ARRAY REGROUPING
+Xu Liu (Rice University)
+Kamal Sharma (Rice University)
+John Mellor-Crummey (Rice University)
+
+DESIGN FOR SCALABILITY IN ENTERPRISE SSDS
+Arash Tavakkol (Sharif University of Technology)
+Mohammad Arjomand (Sharif University of Technology)
+Hamid Sarbazi-Azad (Sharif University of Technology)
+
+D2MA: ACCELERATING COARSE-GRAINED DATA TRANSFER FOR GPUS
+Davoud Anoushe Jamshidi (University of Michigan)
+Mehrzad Samadi (University of Michigan)
+Scott Mahlke (University of Michigan)
+
+VAST: THE ILLUSION OF A LARGE MEMORY SPACE FOR GPUS
+Janghaeng Lee (University of Michigan)
+Mehrzads Samadi (University of Michigan)
+Scott Mahlke (University of Michigan)
+
+AUTOMATIC OPTIMIZATION OF THREAD-COARSENING FOR GRAPHICS PROCESSORS
+Alberto Magni (University of Edinburgh)
+Christophe Dubach (University of Edinburgh)
+Michael O'Boyle (University of Edinburgh)
+
+
+
+
+
+
+PACT 2013
+
+INSPIRE The Insieme Parallel Intermediate Representation 
+Herbert Jordan, Simone Pellegrini, Peter Thoman, Klaus Kofler, Thomas Fahringer (University of Innsbruck)
+
+Parallel Flow-Sensitive Pointer Analysis by Graph-Rewriting 
+N. Vaivaswatha, Ramaswamy Govindarajan (Indian Institute of Science)
+
+Interprocedural Strength Reduction of Critical Sections in Explicitly-Parallel Programs 
+Rajkishore Barik (Intel Labs)
+Jisheng Zhao (Rice University)
+Vivek Sarkar (Rice University)
+
+
+ThermOS: System Support for Dynamic Thermal Management of Chip Multi-Processors 
+Filippo Sironi (Politecnico di Milano)
+Martina Maggio (Lund University)
+Riccardo Cattaneo (Politecnico di Milano)
+Giovanni F. Del Nero (Politecnico di Milano)
+Donatella Sciuto (Politecnico di Milano)
+Marco D. Santambrogio (Politecnico di Milano)
+
+
+
+Coordinated Power-Performance Optimization in Manycores 
+Hiroshi Sasaki, Satoshi Imamura, Koji Inoue (Kyushu University)
+
+An Opportunistic Prediction-based Thread Scheduling to Maximize Throughput/Watt in AMPs 
+Arunachalam Annamalai, Rance Rodrigues, Israel Koren, Sandip Kundu (University of Massachusetts at Amherst)
+
+APOGEE: Adaptive Prefetching on GPU for Energy Efficiency 
+Ankit Sethia (University of Michigan)
+Ganesh Dasika (ARM)
+
+Mehrzad Samadi (University of Michigan)
+Scott Mahlke (University of Michigan)
+
+Parallel Frame Rendering: Trading Responsiveness for Energy on a Mobile GPU 
+Jose-Maria Arnau (Universitat Politecnica de Catalunya)
+
+Joan-Manuel Parcerisa (Universitat Politecnica de Catalunya)
+Polychronis Xekalakis (Intel)
+
+Exploring Hybrid Memory for GPU Enenrgy Efficiency through Software-Hardware Co-Design 
+Bin Wang (Auburn University)
+Bo Wu (College of William and Mary)
+Dong Li (Oakridge National Lab)
+Xipeng Shen (College of William and Mary)
+Weikuan Yu (Auburn University)
+
+Yizheng Jiao (Auburn University)
+Jeffrey S. Vetter (Oak Ridge National Lab)
+
+S-CAVE: Effectively Managing SSD Caches in Virtual Machine Environments 
+Tian Luo (The Ohio State University)
+Siyuan Ma (The Ohio State University)
+Rubao Lee (The Ohio State University)
+Xiaodong Zhang (The Ohio State University)
+Deng Liu (VMWare)
+Li Zhou (VMWare)
+
+
+Writeback-Aware Bandwidth Partitioning for Multi-core Systems with PCM 
+Miao Zhou, Yu Du, Bruce Childers, Rami Melhem, Daniel Mosse (University of Pittsburgh)
+
+L1-Bandwidth Aware Thread Allocation in Multicore SMT Processors 
+Josué Feliu, Julio Sahuquillo, Salvador Petit, José Duato (Universitat Politècnica de València)
+
+
+A Unified View of Non-monotonic Core Selection and Application Steering in Heterogeneous Chip Multiprocessors 
+Sandeep Navada, Niket K. Choudhary (Qualcomm)
+Salil Wadhavkar, Eric Rotenberg (North Carolina State University)
+
+Memory-centric System Interconnect Design with Hybrid Memory Cubes 
+Gwangsun Kim, John Kim (KAIST)
+Jung Ho Ahn, Jaeha Kim (Seoul National University)
+
+Neither More Nor Less: Optimizing Thread-level Parallelism for GPGPUs 
+Onur Kayiran, Adwait Jog, Mahmut T. Kandemir, Chita R. Das (The Pennsylvania State University)
+
+SMT-Centric Power-Aware Thread Placement in Chip Multiprocessors 
+Augusto Vega, Alper Buyuktosunoglu, Pradip Bose (IBM)
+
+
+Fairness-Aware Scheduling on Single-ISA Heterogeneous Multi-Cores 
+Kenzo Van Craeynest (Ghent University)
+Shoaib Akram (Ghent University)
+Wim Heirman (Ghent University)
+Aamer Jaleel (Intel)
+Lieven Eeckhout (Ghent University)
+
+DANBI: Dynamic Scheduling of Irregular Stream Programs for Many-Core Systems 
+Changwoo Min (Samsung)
+Young Ik Eom (Sungkyunkwan University)
+
+An Empirical Model for Predicting Cross-Core Performance Interference on Multicore Processors 
+Jiacheng Zhao (CAS)
+Huimin Cui (CAS)
+
+Jingling Xue (University of New South Wales)
+Xiaobing Feng (CAS)
+Youliang Yan (Huawei)
+Wensen Yang (Huawei)
+
+
+Jigsaw: Scalable Software-Defined Caches
+Nathan Beckmann, Daniel Sanchez (MIT)
+
+Managing Shared Last-level Cache in a Heterogeneous Multicore Processor 
+Vineeth Mekkat, Anup Holey, Pen-Chung Yew, Antonia Zhai (University of Minnesota)
+
+Reshaping Cache Misses to Improve Row-Buffer Locality in Multicore Systems 
+Wei Ding, Jun Liu, Mahmut Kandemir, Mary Jane Irwin (The Pennsylvania State University)
+
+
+Transparent CPU-GPU Collaboration for Data-Parallel Kernels on Heterogeneous Systems 
+Janghaeng Lee, Mehrzad Samadi, Yongjun Park, Scott Mahlke (University of Michigan)
+
+Starchart: Hardware and Software Optimization Using Recursive Partitioning Regression Trees 
+Wenhao Jia (Princeton University)
+Kelly A. Shaw (University of Richmond)
+Margaret Martonosi (Princeton University)
+
+RSVM: a region-based software virtual memory for GPU 
+Feng Ji (NCSU)
+Heshan Lin (Virginia Tech)
+Xiaosong Ma (NCSU)
+
+
+The Case for a Scalable Coherence Protocol for Complex on-chip Cache Hierarchies in Many Core Systems 
+Lucia G. Menezo, Valentin Puente, Jose Angel Gregorio (University of Cantabria)
+
+Meeting Midway: Improving CMP Performance with Memory-Side Prefetching 
+Praveen Yedlapalli, Jagadish Kotra, Emre Kultursay, Mahmut Kandemir, Chita Das, Anand Sivasubramaniam (The Pennsylvania State University)
+
+Building Expressive, Area-Efficient Coherence Directories
+Lei Fang (Zhejiang University)
+Peng Liu (Zhejiang University)
+Qi Hu (Zhejiang University)
+Michael C. Huang (University of Rochester)
+Guofan Jiang (IBM)
+
+
+Traffic Steering Between a Low-Latency Unswitched TL Ring and a High-Throughput Switched On-chip Interconnect 
+Jungju Oh, Alenka Zajic, Milos Prvulovic (Georgia Institute of Technology)
+
+McRouter: Multicast within a Router for High Performance Network-on-Chips 
+Yuan He (The University of Tokyo)
+Hiroshi Sasaki (Kyushu University)
+
+Shinobu Miwa (The University of Tokyo)
+Hiroshi Nakamura (The University of Tokyo)
+
+A Debugging Technique for Every Parallel Programmer 
+Justin Gottschlich, Gilles Pokam, Cristiano Pereira, Youfeng Wu (Intel Corporation)
+
+Breaking SIMD Shackles with an Exposed Flexible Microarchitecture and the Access Execute PDG
+Venkatraman Govindaraju, Tony Nowatzki, Karthikeyan Sankaralingam (University of Wisconsin-Madison)
+
+
+Vectorization Past Dependent Branches Through Speculation 
+Majedul Haque Sujon (University of Texas San Antonio)
+R. Clint Whaley (University of Texas San Antonio)
+Qing Yi (University of Colorado)
+
+Automatic Vectorization of Tree Traversals 
+Youngjoon Jo, Michael Goldfarb, Milind Kulkarni (Purdue University)
+
+Generating Efficient Data Movement Code for Heterogeneous Architectures with Distributed-Memory 
+Roshan Dathathri, Chandan Reddy, Thejas Ramashekar, Uday Bondhugula (Indian Institute of Science)
+
+Automatic OpenCL Work-Group Size Selection for Multicore CPUs 
+Sangmin Seo, Jun Lee, Gangwon Jo, Jaejin Lee (Seoul National University) 
+
+
+PACT 2012
+
+
+
+Power-Aware Multi-Core Simulation for Early Design Stage Hardware/Software Co-Optimization
+Wim Heirman, Souradip Sarkar, Trevor E. Carlson (Ghent University)
+Ibrahim Hur (Intel)
+Lieven Eeckhout (Ghent University)
+
+PGCapping: Exploiting Power Gating for Power Capping and Core Lifetime Balancing in CMPs
+Kai Ma, Xiaorui Wang (The Ohio State University)
+
+Power-Efficient Time-Sensitive Mapping in Heterogeneous Systems
+Cong Liu (University of North Carolina at Chapel Hill)
+Jian Li, Wei Huang, Juan Rubio, Evan Speight (IBM)
+Felix Xiaozhu Lin (Rice University)
+
+
+
+Fast and Efficient Automatic Memory Management for GPUs Using Compiler-Assisted Runtime Coherence Scheme
+Sreepathi Pai, Ramaswamy Govindarajan, Matthew J. Thazhuthaveetil (Indian Institute of Science)
+
+Riposte: A Trace-Driven Compiler and Parallel VM for Vector Code in R
+Justin Talbot, Zachary DeVito, Pat Hanrahan (Stanford University)
+
+Auto-Parallelizing Stateful Distributed Streaming Applications
+Scott Schneider, Martin Hirzel (IBM Research)
+Buğra Gedik (Bilkent University)
+Kun-Lung Wu (IBM Research)
+
+
+PEPON: Performance-Aware Hierarchical Power Budgeting for NoC Based Multicores
+Akbar Sharifi, Asit K. Mishra, Shekhar Srikantaiah, Mahmut Kandemir, Chita R. Das (The Pennsylvania State University)
+
+XPoint Cache: Scaling Existing Bus-Based Coherence Protocols for 2D and 3D
+Many-Core Systems
+Ronald G. Dreslinski, Thomas Manville, Korey Sewell, Reetuparna Das, Nathaniel Pinckney, Sudhir Satpathy,
+David Blaauw, Dennis Sylvester, Trevor Mudge (University of Michigan)
+
+APCR: An Adaptive Physical Channel Regulator for On-Chip Interconnects
+Lei Wang, Poornachandran Kumar, Ki Hwan Yum, Eun Jung Kim (Texas A&M University)
+
+
+Pointy: A Hybrid Pointer Prefetcher for Managed Runtime Systems
+Ioana Burcea, Livio Soares (IBM)
+Andreas Moshovos (University of Toronto)
+
+
+Scalability-Based Manycore Partitioning
+Hiroshi Sasaki (Kyushu University)
+Teruo Tanimoto (The University of Tokyo)
+Koji Inoue (Kyushu University)
+Hiroshi Nakamura (The University of Tokyo)
+
+Optimizing Datacenter Power with Memory System Levers for Guaranteed Quality-of-Service
+Kshitij Sudan (University of Utah)
+Sadagopan Srinivasan (Intel Corporation)
+Rajeev Balasubramonian (University of Utah)
+Ravi Iyer (Intel Corporation)
+
+
+Evaluation of Blue Gene/Q Hardware Support for Transactional Memories
+Amy Wang (IBM Toronto Software Laboratory)
+Matthew Gaudet (University of Alberta)
+Peng Wu (IBM Research)
+José Nelson Amaral (University of Alberta)
+Martin Ohmacht (IBM Research)
+Christopher Barton, Raul Silvera (IBM Toronto Software Laboratory)
+Maged Michael (IBM Research)
+
+Making Data Prefetch Smarter: Adaptive Prefetching on POWER7
+Victor Jiménez (Barcelona Supercomputing Center)
+Roberto Gioiosa (Pacific Northwest National Laboratory)
+Francisco J. Cazorla (Barcelona Supercomputing Center)
+Alper Buyuktosunoglu, Pradip Bose (IBM Research)
+Francis P. O'Connell (IBM)
+
+Enhancing Performance Optimization of Multicore Chips and Multichip Nodes with Data Structure Metrics
+Ashay Rane, James Browne (The University of Texas at Austin)
+
+
+Visualizing Transactional Memory
+Justin E. Gottschlich (Intel Corporation)
+Maurice P. Herlihy (Brown University)
+Gilles A. Pokam (Intel Corporation)
+Jeremy G. Siek (University of Colorado-Boulder)
+
+Sandboxing Transactional Memory
+Luke Dalessandro, Michael L. Scott (University of Rochester)
+
+Transactional Prefetching: Narrowing the Window of Contention in Hardware Transactional Memory
+Anurag Negi (Chalmers University of Technology)
+Adrià Armejach (Universitat Politècnica de Catalunya)
+Adrián Cristal (Spanish National Research Council)
+Osman S. Unsal (Barcelona Supercomputing Center)
+Per Stenstrom (Chalmers University of Technology)
+
+
+RISE: Improving the Streaming Processors Reliability Against Soft Errors in GPGPUs
+Jingweijia Tan, Xin Fu (University of Kansas)
+
+Chrysalis Analysis: Incorporating Synchronization Arcs in Dataflow-Analysis-Based Parallel Monitoring
+Michelle L. Goodstein (Carnegie Mellon University)
+Shimin Chen (HP Labs, China)
+Phillip B. Gibbons, Michael A. Kozuch (Intel Labs)
+Todd C. Mowry (Carnegie Mellon University)
+
+Probabilistic Diagnosis of Performance Faults in Large-Scale Parallel Applications
+Ignacio Laguna (Purdue University)
+Dong H. Ahn, Bronis R. de Supinski (Lawrence Livermore National Laboratory)
+Saurabh Bagchi (Purdue University)
+Todd Gamblin (Lawrence Livermore National Laboratory)
+
+
+
+Practically Private: Enabling High Performance CMPs Through Compiler-Assisted Data Classification
+Yong Li, Rami Melhem, Alex K. Jones (University of Pittsburgh)
+
+Complexity-Effective Multicore Coherence
+Alberto Ros (Universidad de Murcia)
+Stefanos Kaxiras (Uppsala University)
+
+HaLock: Hardware-Assisted Lock Contention Detection in Multithreaded Applications
+Yongbing Huang, Zehan Cui, Licheng Chen, Wenli Zhang, Yungang Bao, Mingyu Chen (Chinese Academy of Sciences)
+
+
+
+Runtime Detection and Optimization of Collective Communication Patterns
+Torsten Hoefler (ETH Zurich)
+Timo Schneider (University of Illinois at Urbana-Champaign)
+
+Coalition Threading: Combining Traditional and Non-Traditional Parallelism to Maximize Scalability
+Md Kamruzzaman, Steven Swanson, Dean M. Tullsen (University of California San Diego)
+
+Shared Memory Multiplexing: A Novel Way to Improve GPGPU Throughput
+Yi Yang , Ping Xiang (North Carolina State University)
+Mike Mantor, Norm Rubin (Advanced Micro Devices)
+Huiyang Zhou (North Carolina State University)
+
+
+
+Introducing Hierarchy-Awareness in Replacement and Bypass Algorithms for Last-Level Caches
+Mainak Chaudhuri (Indian Institute of Technology)
+Jayesh Gaur, Nithiyanandan Bashyam, Sreenivas Subramoney, Joseph Nuzman (Intel)
+
+Efficient Techniques for Predicting Cache Sharing and Throughput
+Andreas Sandberg, David Black-Schaffer, Erik Hagersten (Uppsala University)
+
+Optimal Bypass Monitor for High Performance Last-Level Caches
+Lingda Li, Dong Tong, Zichao Xie, Junlin Lu, Xu Cheng (Peking University)
+
+
+
+Lossless and Lossy Memory I/O Link Compression for Improving Performance of GPGPU Workloads
+Vijay Sathish (The University of Wisconsin-Madison)
+Michael J. Schulte (Advanced Micro Devices)
+Nam Sung Kim (The University of Wisconsin-Madison)
+
+Multi2Sim: A Simulation Framework for CPU-GPU Computing
+Rafael Ubal (Northeastern University)
+Byunghyun Jang (University of Mississippi)
+Perhaad Mistry, Dana Schaa, David Kaeli (Northeastern University)
+
+A Yoke of Oxen and a Thousand Chickens for Heavy Lifting Graph Processing
+Abdullah Gharaibeh, Lauro Beltrão Costa, Elizeu Santos-Neto, Matei Ripeanu (The University of British Columbia)
+
+
+The Evicted-Address Filter: A Unified Mechanism to Address Both Cache Pollution and Thrashing
+Vivek Seshadri, Onur Mutlu (Carnegie Mellon University)
+Michael A. Kozuch (Intel)
+Todd C. Mowry (Carnegie Mellon University)
+
+
+A Software Memory Partition Approach for Eliminating Bank-Level Interference in Multicore Systems
+Lei Liu, Zehan Cui, Mingjie Xing, Yungang Bao, Mingyu Chen, Chengyong Wu (Chinese Academy of Sciences)
+
+Base-Delta-Immediate Compression: Practical Data Compression for On-Chip Caches
+Gennady Pekhimenko, Vivek Seshadri, Onur Mutlu (Carnegie Mellon University)
+Michael A. Kozuch, Phillip B. Gibbons (Intel)
+Todd C. Mowry (Carnegie Mellon University)
+
+
+Hardware Acceleration in the IBM PowerEN Processor: Architecture and Performance
+Anil Krishna (IBM)
+Timothy Heil (Microsoft)
+Nicholas Lindberg (Milwaukee Institute)
+Farnaz Toussi, Steven VanderWiel (IBM)
+
+Workload and Power Budget Partitioning for Single-Chip Heterogeneous Processors
+Hao Wang, Vijay Sathish, Ripudaman Singh (The University of Wisconsin-Madison)
+Michael J. Schulte (Advanced Micro Devices)
+Nam Sung Kim (The University of Wisconsin-Madison)
+
+Database Analytics Acceleration Using FPGAs
+Bharat Sukhwani, Hong Min, Mathew Thoennes, Parijat Dube (IBM Research)
+Balakrishna Iyer (IBM)
+Bernard Brezzo, Donna Dillenberger, Sameh Asaad (IBM Research)
+
+PACT 2011
+
+SPATL: Honey, I Shrunk the Coherence Directory 
+Hongzhou Zhao (University Rochester)
+Arrvindh Shriraman (Simon Fraser University)
+Sandhya Dwarkadas (University Rochester)
+Vijayalakshmi Srinivasan (IBM Research) 
+
+POPS: Coherence Protocol Optimization for Both Private and Shared Data
+Hemayet Hossain (University Rochester)
+Sandhya Dwarkadas (University Rochester)
+Michael C. Huang (University Rochester) 
+
+An OpenCL Framework for Homogeneous Manycores with No Hardware Cache Coherence 
+Jun Lee (Seoul National University)
+Jungwon Kim (Seoul National University)
+Junghyun Kim (Seoul National University)
+Sangmin Seo (Seoul National University)
+Jaejin Lee (Seoul National University)
+
+
+A Unified Scheduler for Recursive and Task Dataflow Parallelism
+Hans Vandierendonck (Ghent University)
+George Tzenakis (FORTH)
+Dimitrios S. Nikolopoulos (FORTH) 
+
+No More Backstabbing... A Faithful Scheduling Policy for Multithreaded Programs
+Kishore Kumar Pusukuri (UC Riverside)
+Rajiv Gupta (UC Riverside)
+Laxmi N. Bhuyan (UC Riverside) 
+
+Dynamic Fine-Grain Scheduling of Pipeline Parallelism
+Daniel Sanchez (Stanford University)
+David Lo (Stanford University)
+Richard M. Yoo (Stanford University)
+Jeremy Sugerman (Stanford University)
+Christos Kozyrakis (Stanford University)
+
+Compiling Dynamic Data Structures in Python to Enable the Use of Multi-core and Many-core Libraries
+Bin Ren (Ohio State University)
+Gagan Agrawal (Ohio State University) 
+
+Efficient Parallel Graph Exploration for Multi-Core CPU and GPU
+Sunpgack Hong (Stanford University)
+Tayo Oguntebi (Stanford University)
+Kunle Olukotun (Stanford University) 
+
+A Heterogeneous Parallel Framework for Domain-Specific Languages
+Kevin J. Brown (Stanford University)
+Arvind K. Sujeeth (Stanford University)
+HyoukJoong Lee (Stanford University)
+Tiark Rompf (EPFL)
+Hassan Chafi (Stanford University)
+Kunle Olukotun (Stanford University)
+
+
+PEPSC: A Power-Efficient Processor for Scientific Computing
+Ganesh Dasika (University Michigan)
+Ankit Sethia (University Michigan)
+Trevor Mudge (University Michigan)
+Scott Mahlke (University Michigan) 
+
+Improving Throughput of Power-Constrained GPUs Using Dynamic Voltage/Frequency and Core Scaling 
+Jungseob Lee (University Wisconsin-Madison)
+Vijay Satish (University Wisconsin-Madison)
+Katherine Compton (University of Wisconsin-Madison)
+Mike Schulte (AMD)
+Nam Kim (University of Wisconsin-Madison) 
+
+Performance per Watt Benefits of Dynamic Core Morphing in Asymmetric Multicores
+Rance Rodrigues (University Massachusetts at Amherst)
+Arunachalam Annamalai (University Massachusetts at Amherst)
+Israel Koren (University Massachusetts at Amherst)
+Sandip Kundu (University Massachusetts at Amherst)
+Omer Khan (University Massachusetts at Lowell)
+
+
+Phased-Based Application-Driven Hierarchical Power Management on the Single-chip Cloud Computer
+Nikolas Ioannou (University of Edinburgh)
+Matthias Gries (Intel, Germany)
+Michael Kauschke (Intel, Germany)
+Marcelo Cintra (University of Edinburgh) 
+
+Optimizing Data Layouts for Parallel Computation on Multicores
+Yuanrui Zhang (Penn State University)
+Wei Ding (Penn State University)
+Jun Liu (Penn State University)
+Mahmut Kandemir (Penn State University) 
+
+DeNovo: Rethinking the Memory Hierarchy for Disciplined Parallelism
+Byn Choi (UIUC)
+Rakesh Komuravelli (UIUC)
+Hyojin Sung (UIUC)
+Robert Smolinski (UIUC)
+Nima Honarmand (UIUC)
+Sarita V. Adve (UIUC)
+Vikram S. Adve (UIUC)
+Nicholas P. Carter (Intel)
+Ching-Tsun Chou (Intel)
+
+STM2: A Parallel STM for High Performance Simultaneous Multithreading Systems
+Gokcen Kestor (Barcelona Supercomputing Center)
+Roberto Gioiosa (Barcelona Supercomputing Center)
+Tim Harris (Microsoft Research)
+Osman Unsal (Barcelona Supercomputing Center)
+Adrian Cristal (Barcelona Supercomputing Center)
+Ibrahim Hur (Barcelona Supercomputing Center)
+Mateo Valero (Univesitat Politecnica de Catalunya) 
+
+Making STMs Cache Friendly with Compiler Transformations
+Sandya Mannarswamy (Hewlett-Packard)
+Ramaswamy Govindarajan (Indian Institute of Science)
+
+
+StVEC: A Vector Instruction Extension for High Performance Stencil Computation
+Naser Sedaghati (Ohio State University)
+Renji Thomas (Ohio State University)
+Louis-Noel Pouchet (Ohio State University)
+Radu Teodorescu (Ohio State University)
+P Sadayappan (Ohio State University) 
+
+OpenMDSP: Extending OpenMP to Program Multi-Core DSP
+Jiangzhou He (Tsinghua University)
+Wenguang Chen (Tsinghua University)
+Guangri Chen (Huawei Technologies)
+Weimin Zheng (Tsinghua University)
+Zhizhong Tang (Tsinghua University)
+Handong Ye (Huawei Technologies) 
+
+ARIADNE: Agnostic Reconfiguration In A Disconnected Network Environment
+Konstantinos Aisopos (Princeton University)
+Andrew DeOrio (University Michigan)
+Li-Shiuan Peh (MIT)
+Valeria Bertacco (University Michigan)
+
+
+Enhancing Data Locality for Dynamic Simulations through Asynchronous Data Transformations and Adaptive Control
+Bo Wu (The College of William and Mary)
+Eddy Z. Zhang (The College of William and Mary)
+Xipeng Shen (The College of William and Mary) 
+
+SFMalloc: A Lock-Free and Mostly Synchronization-Free Dynamic Memory Allocator for Manycores
+Sangmin Seo (Seoul National University)
+Junghyun Kim (Seoul National University)
+Jaejin Lee (Seoul National University) 
+
+Coherent Profiles: Enabling Efficient Reuse Distance Analysis of Multicore Scaling for Loop-based Parallel Programs
+Meng-Ju Wu (University Maryland at College Park)
+Donald Yeung (University of Maryland at College Park)
+
+
+
+DiDi: Mitigating The Performance Impact of TLB Shootdowns Using A Shared TLB Directory
+Carlos Villavieja (Universitat Politecnica de Catalunya)
+Vasilis Karakostas (Barcelona Supercomputing Center)
+Lluis Vilanova (Universitat Politecnica de Catalunya)
+Yoav Etsion (Barcelona Supercomputing Center)
+Alex Ramirez (Universitat Politecnica de Catalunya)
+Avi Mendelson (Microsoft)
+Nacho Navarro (Universitat Politecnica de Catalunya)
+Adrian Cristal (Barcelona Supercomputing Center)
+Osman Unsal (Barcelona Supercomputing Center) 
+
+Linear-time Modeling of Program Working Set in Shared Cache
+Xiaoya Xiang (University Rochester)
+Bin Bao (University Rochester)
+Chen Ding (University Rochester)
+Yaoqing Gao (IBM) 
+
+Using a Reconfigurable L1 Data Cache for Efficient Version Management in Hardware Transactional Memory
+Adria Armejach (Universitat Politecnica de Catalunya)
+Azam Seyedi (Universitat Politecnica de Catalunya)
+Ruben Titos (University de Murcia)
+Ibrahim Hur (Barcelona Supercomputing Center)
+Osman S. Unsal (Barcelona Supercomputing Center)
+Adrian Cristal (Barcelona Supercomputing Center)
+Mateo Valero (Universitat Politecnica de Catalunya)
+
+
+Correctly Treating Synchronizations in Compiling Fine-Grained SPMD-Threaded Programs for CPU 
+Ziyu Guo (The College of William and Mary)
+Eddy Z. Zhang (The College of William and Mary)
+Xipeng Shen (The College of William and Mary) 
+
+Divergence Analysis and Optimizations 
+Bruno Rocha Coutinho (UFMG)
+Diogo Nunes Sampaio (UFMG)
+Fernando Magno Quintao Pereira (UFMG)
+Wagner Meira Jr. (UFMG) 
+
+Large Scale Verification of MPI Programs Using Lamport Clocks with Lazy Update 
+Anh Vo (University of Utah)
+Ganesh Gopalakrishnan (University of Utah)
+Robert M. Kirby (University of Utah)
+Bronis R. de Supinski (LLNL)
+Martin Schulz (LLNL)
+Greg Bronevetsky (LLNL)
+
+
+An Evaluation of Vectorizing Compilers 
+Saeed Maleki (UIUC)
+David Padua (UIUC)
+Maria J. Garzaran (UIUC)
+Yaoqing Gao (IBM)
+Tommy Wong (IBM) 
+
+Modeling and Performance Evaluation of TSO-Preserving Binary Optimization 
+Cheng Wang (Intel Labs)
+Youfeng Wu (Intel Labs) 
+
+Exploiting Task Order Information for Optimizing Sequentially Consistent Java Programs 
+Christoph M. Angerer (ETH Zurich)
+Thomas R. Gross (ETH Zurich)
+
+
+
+Memory Architecture for Integrating Emerging Memory Technologies 
+Kun Fang (University of Illinois at Chicago)
+Long Chen (Iowa State University)
+Zhao Zhang (Iowa State University)
+Zhichun Zhu (University of Illinois at Chicago) 
+
+Speculative Parallelization in Decoupled Look-ahead 
+Alok Garg (University Rochester)
+Raj Parihar (University Rochester)
+Michael C. Huang (University Rochester) 
+
+Optimizing Regular Expression Matching with SR-NFA on Multi-Core Systems 
+Yi-Hua Edward Yang (University of Southern California)
+Viktor K. Prasanna (University of Southern California)
+
+
+
+
+
+PACT 2010
+
+
+Power and Thermal Characterization of POWER6 System
+Victor Jiménez, Francisco J. Cazorla, Roberto Gioiosa, Mateo Valero (Barcelona Supercomputing Center)
+Carlos Boneti (Schlumberger BRGC)
+Eren Kursun, Chen-Yong Cher, Canturk Isci, Alper Buyuktosunoglu, Pradip Bose (IBM T.J. Watson Research Center)
+
+System-Level Max Power (SYMPO) - A Systematic Approach for Escalating System-Level Power Consumption Using Synthetic Benchmarks
+Karthik Ganesan, Jungho Jo, W. Lloyd Bircher, Dimitris Kaseridis, Zhibin Yu,
+Lizy K. John (University of Texas at Austin)
+
+Scalable Thread Scheduling and Global Power Management for Heterogeneous Many-Core Architectures
+Jonathan A. Winter (Google)
+David H. Albonesi, Christine A. Shoemaker (Cornell University)
+
+Dynamically Managed Multithreaded Reconfigurable Architectures for Chip Multiprocessors
+Matthew A. Watkins, David H. Albonesi (Cornell University)
+
+
+Accelerating Multicore Reuse Distance Analysis with Sampling and Parallelization
+Derek L. Schuff, Milind Kulkarni, Vijay S. Pai (Purdue University)
+
+Simple and Fast Biased Locks
+Nalini Vasudevan (Columbia University)
+Kedar S. Namjoshi (Bell Laboratories)
+Stephen A. Edwards (Columbia University)
+
+Avoiding Deadlock Avoidance
+Hari K. Pyla, Srinidhi Varadarajan (Virginia Polytechnic Institute and State University)
+
+DAFT: Decoupled Acyclic Fault Tolerance
+Yun Zhang (Princeton University)
+Jae W. Lee (Parakinetics)
+Nick P. Johnson, David I. August (Princeton University)
+
+
+WAYPOINT: Scaling Coherence to 1000-Core Architectures
+John H. Kelm, Matthew R. Johnson, Steven S. Lumettta, Sanjay J. Patel (University of Illinois at Urbana-Champaign)
+
+Subspace Snooping: Filtering Snoops with Operating System Support
+Daehoon Kim, Jeongseob Ahn, Jaehong Kim, Jaehyuk Huh (Korea Advanced Institute of Science & Technology)
+
+Proximity Coherence for Chip Multiprocessors
+Nick Barrow-Williams (University of Cambridge)
+Christian Fensch (University of Edinburgh)
+Simon Moore (University of Cambridge)
+
+SPACE: Sharing Pattern-Based Directory Coherence for Multicore Scalability
+Hongzhou Zhao, Arrvindh Shriraman, Sandhya Dwarkadas (University of Rochester)
+
+
+
+Feedback-Directed Pipeline Parallelism
+M. Aater Suleman (The University of Texas at Austin)
+Moinuddin K. Qureshi (IBM T.J. Watson Research Center)
+Khubaib, Yale N. Patt (The University of Texas at Austin)
+
+Scalable Hardware Support for Conditional Parallelization
+Zheng LI (INRIA Saclay)
+Olivier Certner (STMicroelectronics)
+Jose Duato (Polytechnic University of Valencia)
+Olivier Temam (INRIA Saclay)
+
+Reducing Task Creation and Termination Overhead in Explicitly Parallel Programs
+Jisheng Zhao, Jun Shirako (Rice University)
+V. Krishna Nandivada (IBM, India)
+Vivek Sarkar (Rice University)
+
+MEDICS: Ultra-Portable Processing for Medical Image Reconstruction
+Ganesh Dasika, Ankit Sethia, Vincentius Robby, Trevor Mudge, Scott Mahlke (University of Michigan)
+
+
+
+An OpenCL Framework for Heterogeneous Multicores with Local Memory
+Jaejin Lee, Jungwon Kim, Sangmin Seo, Seungkyun Kim, Jungho Park, Honggyu Kim, Thanh Tuan Dao, Yongjin Cho (Seoul National University)
+Sung Jong Seo, Seung Hak Lee, Seung Mo Cho, Hyo Jung Song, Sang-Bum Suh, Jong-Deok Choi (Samsung Electronics Company)
+
+Twin Peaks: A Software Platform for Heterogeneous Computing on General-Purpose and Graphics Processors
+Jayanth Gummaraju, Laurent Morichetti, Michael Houston, Ben Sander, Benedict R. Gaster, Bixia Zheng (Advanced Micro Devices)
+
+MapCG: Writing Parallel Program Portable Between CPU and GPU
+Chuntao Hong, Dehao Chen, Wenguang Chen, Weimin Zheng (Tsinghua University)
+Haibo Lin (IBM)
+
+Adaptive Spatiotemporal Node Selection in Dynamic Networks
+Pradip Hari, John B. P. McCabe, Jonathan Banafato, Marcus Henry (Rutgers University)
+Kevin Ko, Emmanouil Koukoumidis (Princeton University)
+Ulrich Kremer (Rutgers University)
+Margaret Martonosi (Princeton University)
+Li-Shiuan Peh (Massachussetts Institute of Technology)
+
+
+
+On Mitigating Memory Bandwidth Contention Through Bandwidth-Aware Scheduling
+Di Xu, Chenggang Wu (Chinese Academy of Sciences)
+Pen-Chung Yew (University of Minnesota at Twin-Cities)
+
+AKULA: A Toolset for Experimenting and Developing Thread Placement Algorithms on Multicore Systems
+Sergey Zhuravlev, Sergey Blagodurov, Alexandra Fedorova (Simon Fraser University)
+ix
+
+Criticality-Driven Superscalar Design Space Exploration
+Sandeep Navada, Niket K. Choudhary, Eric Rotenberg (North Carolina State University)
+
+A Programmable Parallel Accelerator for Learning and Classification
+Srihari Cadambi, Abhinandan Majumdar, Michela Becchi, Srimat Chakradhar, Hans Peter Graf (NEC Laboratories America)
+
+
+Discovering and Understanding Performance Bottlenecks in Transactional Applications
+Ferad Zyulkyarov, Srdjan Stipic (Universitat Politècnica de Catalunya)
+Tim Harris (Microsoft Research)
+Osman S. Unsal (Microsoft Research)
+Adrián Cristal (Spanish National Research Council)
+Ibrahim Hur (Microsoft Research)
+Mateo Valero (Universitat Politècnica de Catalunya)
+
+Efficient Sequential Consistency Using Conditional Fences
+Changhui Lin (University of California Riverside)
+Vijay Nagarajan (University of Edinburgh)
+Rajiv Gupta (University of California Riverside)
+
+Partitioning Streaming Parallelism for Multi-Cores: A Machine Learning Based Approach
+Zheng Wang, Michael F. P. O'Boyle (The University of Edinburgh)
+
+Handling the Problems and Opportunities Posed by Multiple On-Chip Memory Controllers
+Manu Awasthi, David Nellans, Kshitij Sudan, Rajeev Balasubramonian, Al Davis (University of Utah)
+
+
+Design and Implementation of the PLUG Architecture for Programmable and Efficient Network Lookups
+Amit Kumar, Lorenzo De Carli, Sung Jin Kim, Marc de Kruijf, Karthikeyan Sankaralingam (University of Wisconsin-Madison)
+Cristian Estan (NetLogic Microsystems)
+Somesh Jha (University of Wisconsin-Madison)
+
+A Model for Fusion and Code Motion in an Automatic Parallelizing Compiler
+Uday Bondhugula, Oktay Gunluk, Sanjeeb Dash, Lakshminarayanan Renganarayanan (IBM T.J. Watson Research Center)
+
+Ocelot: A Dynamic Optimization Framework for Bulk-Synchronous Applications in Heterogeneous Systems
+Gregory Diamos, Andrew Kerr, Sudhakar Yalamanchili, Nathan Clark (Georgia Institute of Technology)
+
+An Empirical Characterization of Stream Programs and Its Implications for Language and Compiler Design
+William Thies (Microsoft Research, India)
+Saman Amarasinghe (Massachusetts Institute of Technology)
+
+
+Semi-Automatic Extraction and Exploitation of Hierarchical Pipeline Parallelism Using Profiling Information
+Georgios Tournavitis, Björn Franke (University of Edinburgh)
+
+The Paralax Infrastructure: Automatic Parallelization with a Helping Hand
+Hans Vandierendonck, Sean Rul, Koen De Bosschere (Ghent University)
+
+
+
+AM++: A Generalized Active Message Framework
+Jeremiah J. Willcock (Indiana University)
+Torsten Hoefler (University of Illinois at Urbana-Champaign)
+Nicholas G. Edmonds, Andrew Lumsdaine (Indiana University)
+
+Using Memory Mapping to Support Cactus Stacks in Work-Stealing Runtime Systems
+I-Ting Angelina Lee, Silas Boyd-Wickizer, Zhiyi Huang, Charles E. Leiserson (Massachusetts Institute of Technology)
+
+
+Speculative-Aware Execution: A Simple and Efficient Technique for Utilizing Multi-Cores to Improve Single-Thread Performance
+Rania H. Mameesh (University of Siena, Italy)
+Manoj Franklin (University of Maryland in College Park)
+
+The Potential of Using Dynamic Information Flow Analysis in Data Value Prediction
+Walid J. Ghandour, Haitham Akkary, Wes Masri (American University of Beirut)
+
+Efficient Runahead Threads
+Tanausú Ramírez, Alex Pajuelo (Universitat Politecnica de Catalunya)
+Oliverio J. Santana (Universidad de Las Palmas de Gran Canaria)
+Onur Mutlu (Carnegie Mellon University)
+Mateo Valero (Universitat Politecnica de Catalunya)
+
+Energy Efficient Speculative Threads: Dynamic Thread Allocation in Same-ISA Heterogeneous Multicore Systems
+Yangchun Luo (University of Minnesota Twin Cities)
+Venkatesan Packirisamy (NVIDIA Corporation)
+Wei-Chung Hsu (National Chiao Tung University)
+Antonia Zhai (University of Minnesota)
+
+
+
+SWEL: Hardware Cache Coherence Protocols to Map Shared Data Onto Shared Caches
+Seth H. Pugsley, Josef B. Spjut, David W. Nellans, Rajeev Balasubramonian (University of Utah)
+
+ATAC: A 1000-Core Cache-Coherent Processor with On-Chip Optical Network
+George Kurian, Jason E. Miller, James Psota, Jonathan Eastep, Jifeng Liu, Jurgen Michel, Lionel C. Kimerling, Anant Agarwal (Massachusetts Institute of Technology)
+
+Using Dead Blocks as a Virtual Victim Cache
+Samira Khan, Daniel A. Jiménez (The University of Texas at San Antonio)
+Doug Burger (Microsoft Research)
+Babak Falsafi (Ecole Polytechnique Fédérale de Lausanne)
+
+
+
+Compiler-Assisted Data Distribution for Chip Multiprocessors
+Yong Li, Ahmed Abousamra, Rami Melhem, Alex K. Jones (University of Pittsburgh)
+
+Data Layout Transformation Exploiting Memory-Level Parallelism in Structured Grid Many-Core Applications
+I-Jui Sung, John A. Stratton, Wen-Mei W. Hwu (University of Illinois at Urbana-Champaign)
+
+Tiled-MapReduce: Optimizing Resource Usages of Data-Parallel Applications on Multicore with Tiling
+Rong Chen, Haibo Chen, Binyu Zang (Fudan University)
+
+
+PACT 2009
+
+Adaptive Locks: Combining Transactions and Locks for Efficient Concurrency
+Takayuki Usui, Reimer Behrends (University of Oregon)
+Jacob Evans, Yannis Smaragdakis (University of Massachusetts at Amherst)
+
+Anaphase: A Fine-Grain Thread Decomposition Scheme for Speculative Multithreading
+Carlos Madriles, Pedro Lopez, Josep M. Codina, Enric Gibert, Fernando Latorrre, Alejandro Martinez, Raul Martinez (Intel)
+Antonio Gonzalez  (Polytechnic University of Catalonia)
+
+
+Characterizing the TLB Behavior of Emerging Parallel Workloads on Chip Multiprocessors
+Abhishek Bhattacharjee, Margaret Martonosi (Princeton University)
+
+Interprocedural Load Elimination for Dynamic Optimization of Parallel Programs
+Rajkishore Barik, Vivek Sarkar (Rice University)
+
+Quantifying the Potential for Program Analysis Peripherals
+Mohit Tiwari, Shashidhar Mysore, Timothy Sherwood (University of California Santa Barbara)
+
+
+Algorithmic Skeletons within an Embedded Domain Specific Language for the CELL Processor
+Tarik Saidani, Joel Falcou, Claude Tadonki, Lionel Lacassagne, Daniel Etiemble (University of Paris-Sud)
+
+A Task-centric Memory Model for Scalable Accelerator Architectures
+John Kelm, Daniel Johnson, Steven Lumetta, Matthew Frank, Sanjay Patel (UIUC)
+
+SHIP: Scalable Hierarchical Power Control for Large-Scale Data Centers
+Xiaorui Wang, Ming Chen (University of Tennessee)
+Charles Lefurgy, Tom Keller (IBM)
+
+Exploring Phase Change Memory and 3D Die-Stacking for Power/Thermal Friendly, Fast and Durable Memory Architectures
+Wangyuan Zhang, Tao Li (University of Florida)
+
+Core-Selectability in Chip Multiprocessors
+Hashem H. Najaf-abadi, Niket K. Choudhary, Eric Rotenberg (North Carolina State University)
+
+Chainsaw: Using Binary Matching for Relative Instruction Mix Comparison
+Tipp Moseley, Dirk Grunwald (University of Colorado)
+Ramesh Peri (Intel)
+
+tm_db: A Generic Debugging Library for Transactional Programs
+Yossi Lev (Brown University Computer Science)
+Maurice Herlihy (Sun Microsystems)
+
+StealthTest: Low Overhead Online Software Testing using Transactional Memory
+Jayaram Bobba, Mark Hill, David Wood (University of Wisconsin-Madison)
+Weiwei Xiong (UIUC)
+Luke Yen (Advanced Micro Devices)
+
+
+CPROB: Checkpoint Processing with Opportunistic Minimal Recovery
+Andrew Hilton, Neeraj Eswaran, Amir Roth (University of Pennsylvania)
+
+Architecture Support for Improving Bulk Memory Copying and Initialization Performance
+Xiaowei Jiang, Yan Solihin (North Carolina State University)
+Li Zhao, Ravishankar Iyer (Intel)
+
+Oblivious Routing on On-Chip Bandwidth-Adaptive Networks
+Myong Hyon Cho, Mieszko Lis, Keun Sup Shim, Michel Kinsy, Tina Wen, Srinivas Devadas (MIT)
+
+
+Exploiting Parallelism with Dependence-Aware Scheduling
+Xiaotong Zhuang, Alexandre Eichenberger, Kevin O'Brien, Kathryn O'Brien (IBM)
+Yangchun Luo (University of Minnesota)
+
+ITCA: Inter-Thread Conflict-Aware CPU Accounting for CMPs
+Carlos Luque, Francisco J. Cazorla (Barcelona Supercomputing Center)
+Miquel Moreto, Mateo Valero (Universitat Politecnica de Catalunya)
+Roberto Gioiosa, Alper Buyuktosunoglu (IBM)
+
+Flextream: Adaptive Compilation of Streaming Applications for Heterogeneous Architectures
+Amir Hormati, Yoonseo Choi, Trevor Mudge, Scott Mahlke (University of Michigan)
+Manjunath Kudlur (NVIDIA)
+Rodric Rabbah (IBM)
+
+DDCache: Decoupled and Delegable Cache Data and Metadata
+Hemayet Hossain, Sandhya Dwarkadas, Michael C. Huang (University of Rochester)
+
+Zero-Value Caches: Cancelling Loads that Return Zero
+Mafijul Md Islam, Per Stenstrom (Chalmers University of Technology)
+
+Improving Hardware Cache Performance Through Software-Controlled Object-Level Cache Partitioning
+Qingda Lu, Xiaoning Ding, Xiaodong Zhang, P. Sadayappan (The Ohio State University)
+Jiang Lin, Zhao Zhang (Iowa State University)
+
+Memory Performance and Cache Coherency Effects on an Intel Nehalem Multiprocessor System
+Daniel Molka, Daniel Hackenberg, Robert Schöne, Matthias S. Müller (TU Dresden)
+
+Automatic Tuning of Discrete Fourier Transforms Driven by Analytical Modeling
+Basilio Fraguela (Universidade da Coruna)
+Yevgen Voronenko, Markus Puschel (Carnegie Mellon University)
+
+Analytical Modeling of Pipeline Parallelism
+Angeles Navarro, Rafael Asenjo, Siham Tabik (University of Malaga)
+Calin Cascaval (IBM)
+
+
+FASTM: A Log-based Hardware Transactional Memory with Fast Abort Recovery
+Marc Lupon (Universitat Politecnica de Catalunya)
+Grigorios Magklis, Antonio Gonzalez (Intel)
+
+Improving Signatures by Locality Exploitation for Transactional Memory
+Ricardo Quislant, Eladio Gutierrez, Oscar Plata (University of Malaga)
+
+Mapping Out a Path from Hardware Transactional Memory to Speculative Multithreading
+Leo Porter, Bumyong Choi, Dean Tullsen (University of California San Diego)
+
+
+Polyhedral-Model Guided Loop-Nest Auto-Vectorization
+Konrad Trifunovic, Albert Cohen (INRIA Saclay) 
+Ayal Zaks, Dorit Nuzman (IBM)
+
+Data Layout Transformation for Enhancing Locality on NUCA Chip Multiprocessors
+Qingda Lu, Uday Bondhugula, Thomas Henretty, Atanas Rountev, P. Sadayappan (The Ohio State University)
+Christophe Alias (INRIA)
+Sriram Krishnamoorthy (Pacific Northwest National Lab)
+Jagannathan Ramanujam (Louisiana State University)
+Haibo Lin (IBM)
+Yongjian Chen, Tin-fook Ngai (Intel)
+
+Region based Structure Layout Optimization by Selective Data Copying
+Sandya Mannarswamy, Rishi Surendran (Hewlett-Packard)
+Ramaswamy Govindarajan (Indian Institute of Science)
+
+SOS: A Software-Oriented Distributed Shared Cache Management Approach for Chip Multiprocessors
+Lei Jin, Sangyeun Cho (University of Pittsburgh)
+
+Using Aggressor Thread Information to Improve Shared Cache Management for CMPs
+Wanli Liu, Donald Yeung (University of Maryland at College Park)
+
+Cache Sharing Management for Performance Fairness in Chip Multiprocessors
+Xing Zhou, Wenguang Chen, Weimin Zheng (Tsinghua University)
+
+
+
+
+
+
+
+
+
+
+
+PACT 2008
+
+Outer-Loop Vectorization — Revisited for Short SIMD Architectures
+Dorit Nuzman, Ayal Zaks (IBM)
+
+Redundancy Elimination Revisited
+Keith Cooper, Jason Eckhardt, Ken Kennedy (Rice University)
+
+Exploiting Loop-Dependent Stream Reuse for Stream Processors
+Xuejun Yang, Ying Zhang (National University of Defence Technology, China)
+Jingling Xue (The University of New South Wales)
+Ian Rogers (The University of Manchester)
+Gen Li, Guibin Wang (National University of Defence Technology, China)
+
+Feature Selection and Policy Optimization for Distributed Instruction Placement Using Reinforcement Learning
+Katherine E. Coons, Behnam Robatmili, Matthew E. Taylor, Bertrand A. Maher, Doug Burger, Kathryn S. McKinley (University of Texas at Austin)
+
+Core Cannibalization Architecture: Improving Lifetime Chip Performance for Multicore Processors in the Presence of Hard Faults
+Bogdan F. Romanescu, Daniel J. Sorin (Duke University)
+
+Pangaea: A Tightly-Coupled IA32 Heterogeneous Chip Multiprocessor
+Henry Wong (University of British Columbia)
+Anne Bracy, Ethan Schuchman (Intel Corporation)
+Tor M. Aamodt (University of British Columbia)
+Jamison D. Collins, Perry H. Wang, Gautham Chinya, Ankur Khandelwal Groen, Hong Jiang, Hong Wang (Intel Corporation)
+
+Skewed Redundancy
+Gordon B. Bell (IBM Corporation)
+Mikko H. Lipasti (University of Wisconsin-Madison)
+
+The PARSEC Benchmark Suite: Characterization and Architectural Implications
+Christian Bienia (Princeton University)
+Sanjeev Kumar (Intel Corporation)
+Jaswinder Pal Singh, Kai Li (Princeton University)
+
+Visualizing Potential Parallelism in Sequential Programs
+Graham D. Price, John Giacomoni, Manish Vachharajani (University of Colorado)
+
+Characterizing and Modeling the Behavior of Context Switch Misses
+Fang Liu, Fei Guo, Yan Solihin (North Carolina State University)
+Seongbeom Kim (VMWare)
+Abdulaziz Eker (The Scientific and Technical Research Council)
+
+
+MCAMP: Communication Optimization on Massively Parallel Machines with Hierarchical Scratch-pad Memory
+Hiroshige Hayashizaki, Yutaka Sugawara, Mary Inaba, Kei Hiraki (The University of Tokyo)
+
+Profiler and Compiler Assisted Adaptive I/O Prefetching for Shared Storage Caches
+Seung Woo Son, Sai Prashanth Muralidhara (Pennsylvania State University)
+Ozcan Ozturk (Bilkent University)
+Mahmut Kandemir (Pennsylvania State University)
+Ibrahim Kolcu (University of Manchester)
+Mustafa Karakoy (Imperial College)
+
+Runtime Optimization of Vector Operations on Large Scale SMP Clusters
+Costin Iancu, Steven Hofmeyr (Lawrence Berkeley National Laboratory)
+
+
+Distributed Cooperative Caching
+Enric Herrero, José González, Ramon Canal (Universitat Politècnica de Catalunya)
+
+Scalable and Reliable Communication for Hardware Transactional Memory
+Seth H. Pugsley, Manu Awasthi, Niti Madan, Naveen Muralimanohar, Rajeev Balasubramonian (University of Utah)
+
+Improving Support for Locality and Fine-Grain Sharing in Chip Multiprocessors
+Hemayet Hossain, Sandhya Dwarkadas, Michael C. Huang (University of Rochester)
+
+
+
+Edge-centric Modulo Scheduling for Coarse-Grained Reconfigurable Architectures
+Hyunchul Park, Kevin Fan, Scott A. Mahlke (University of Michigan)
+Taewook Oh, Heeseok Kim, Hong-seok Kim (Samsung)
+
+Multi-Optimization Power Management for Chip Multiprocessors
+Ke Meng, Russ Joseph, Robert P. Dick (Northwestern University)
+Li Shang (University of Colorado)
+
+Multitasking Workload Scheduling on Flexible-Core Chip Multiprocessors
+Divya P. Gulati (University of Texas at Austin)
+Changkyu Kim (Intel Corporation)
+Simha Sethumadhavan (Columbia University)
+Stephen W. Keckler, Doug Burger (University of Texas at Austin)
+
+
+
+Leveraging On-Chip Networks for Data Cache Migration in Chip Multiprocessors
+Noel Eisley, Li-Shiuan Peh (Princeton University)
+Li Shang (University of Colorado)
+
+Adaptive Insertion Policies for Managing Shared Caches
+Aamer Jaleel, William Hasenplaugh (Intel Corporation)
+Moinuddin Qureshi (IBM T.J. Watson Research Center)
+Julien Sebot (Intel, Israel)
+Simon Steely Jr., Joel Emer (Intel Corporation)
+
+Analysis and Approximation of Optimal Co-Scheduling on Chip Multiprocessors
+Yunlian Jiang, Xipeng Shen (College of William and Mary)
+Jie Chen (Thomas Jefferson National Accelerator Facility)
+Rahul Tripathi (University of South Florida)
+
+
+
+An Adaptive Resource Partitioning Algorithm for SMT Processors
+Huaping Wang, Israel Koren, C. Mani Krishna (University of Massachusetts)
+
+Meeting Points: Using Thread Criticality to Adapt Multicore Hardware to Parallel Regions
+Qiong Cai, José González (Intel, Spain)
+Ryan Rakvic (United States Naval Academy)
+Grigorios Magklis, Pedro Chaparro, Antonio González (Intel, Spain)
+
+
+Prediction Models for Multi-dimensional Power-Performance Optimization on Many Cores
+Matthew Curtis-Maury, Ankur Shah, Filip Blagojevic, Dimitrios S. Nikolopoulos (Virginia Polytechnic Institute and State University)
+Bronis R. de Supinski, Martin Schulz (Lawrence Livermore National Laboratory)
+
+Mars: A MapReduce Framework on Graphics Processors
+Bingsheng He, Wenbin Fang, Qiong Luo (Hong Kong University of Science and Technology)
+Naga K. Govindaraju (Microsoft Corporation)
+Tuyong Wang (Sina Corporation)
+
+Multi-mode Energy Management for Multi-tier Server Clusters
+Tibor Horvath, Kevin Skadron (University of Virginia) 
+
+
+
+A Tuning Framework for Software-Managed Memory Hierarchies
+Manman Ren, Ji Young Park, Mike Houston, Alex Aiken, William J. Dally (Stanford University)
+
+Hybrid Access-Specific Software Cache Techniques for the Cell BE Architecture
+Marc Gonzàlez (Universitat Polytècnica de Catalunya)
+Nikola Vujic (Barcelona Supercomputing Center)
+Xavier Martorell, Eduard Ayguadé (Universitat Polytècnica de Catalunya)
+Alexandre E. Eichenberger, Tong Chen, Zehra Sura, Tao Zhang, Kevin O'Brien, Kathryn O'Brien (IBM T.J. Watson Research Center)
+
+COMIC: A Coherent Shared Memory Interface for Cell BE
+Jaejin Lee, Sangmin Seo, Chihun Kim, Junghyun Kim, Posung Chun (Seoul National University)
+Zehra Sura (IBM T. J. Watson Research Center)
+Jungwon Kim, SangYong Han (Seoul National University)
+
+
+
+PACT 2007
+
+
+
+
+
+
+PACT 2006
+
+
+
+
+
+Architectural Support for Operating System-Driven CMP Cache Management
+N. Rafique, W. T. Lim, M. Thottethodi (Purdue University)
+
+Communist, Utilitarian, and Capitalist Cache Policies on CMPs: Caches as a Shared Resource
+L. R. Hsu, S. K. Reinhardt (University of Michigan)
+R. Iyer, S. Makineni (Intel Corporation)
+
+Core Architecture Optimization for Heterogeneous Chip Multiprocessors
+R. Kumar, D. M. Tullsen (University of California San Diego)
+N. P. Jouppi (HP Labs) 
+
+Compiling for Stream Processing
+A. Das, W. J. Dally (Stanford University)
+P. Mattson (Stream Processors)
+
+Region Array SSA
+S. Rus, G. He (Texas A&M University)
+C. Alias (ENS Lyon)
+L. Rauchwerger (Texas A&M University)
+
+A Two-Phase Escape Analysis for Parallel Java Programs
+K. Lee, S. P. Midkiff (Purdue University) 
+
+
+Self-Checking Instructions - Reducing Instruction Redundancy for Concurrent Error Detection
+S. Kumar, A. Aggarwal (Binghamton University)
+
+A Low-cost Memory Remapping Scheme for Address Bus Protection
+L. Gao, J. Yang, M. Chrobak (University of California Riverside)
+Y. Zhang (University of Pittsburgh)
+S. Nguyen (University of California Riverside)
+H. -H. S. Lee (Georgia Institute of Technology)
+
+Efficient Data Protection for Distributed Shared Memory Multiprocessors
+B. Rogers (North Carolina State University)
+M. Prvulovic (Georgia Institute of Technology)
+Y. Solihin (North Carolina State University) 
+
+
+Wavelet-Based Phase Classification
+T. Huffmire, T. Sherwood (University of California Santa Barbara)
+
+
+Complexity-based Program Phase Analysis and Classification
+C. B. Cho, T. Li (University of Florida)
+
+Performance Prediction Based on Inherent Program Similarity
+K. Hoste (Ghent University)
+A. Phansalkar (The University of Texas at Austin)
+L. Eeckhout, A. Georges (Ghent University)
+L. K. John (The University of Texas at Austin)
+K. De Bosschere (Ghent University) 
+
+
+Hardware Support for Spin Management in Overcommitted Virtual Machines
+P. M. Wells, K. Chakraborty, G. S. Sohi (University of Wisconsin)
+
+Testing Implementations of Transactional Memory
+C. Manovit (Sun Microsystems)
+S. Hangal (Magic Lamp Software)
+H. Chafi, A. McDonald, C. Kozyrakis, K. Olukotun (Stanford University)
+
+Efficient Emulation of Hardware Prefetchers via Event-Driven Helper Threading
+I. Ganusov, M. Burtscher (Cornell University) 
+
+
+DEP: Detailed Execution Profile
+Q. Zhao (National University of Singapore)
+J. E. Sim (National University of Singapore)
+W. F. Wong, L. Rudolph (Massachusetts Institute of Technology)
+
+Whole-Program Optimization of Global Variable Layout
+N. McIntosh, S. Mannarswamy, R. Hundt (Hewlett-Packard Company)
+
+Fast, Automatic, Procedure-Level Performance Tuning
+Z. Pan, R. Eigenmann (Purdue University) 
+
+
+Reducing Control Overhead in Dataflow Architectures
+A. Petersen, M. Mercaldi, S. Swanson, A. Putnam, A. Schwerin, M. Oskin, S. Eggers (University of Washington)
+
+Power-efficient Instruction Delivery through Trace Reuse
+C. Yang, A. Orailoglu (University of California San Diego)
+
+Branch Predictor Guided Instruction Decoding
+O. J. Santana (Universidad de Las Palmas de Gran Canaria)
+A. Falcón (Hewlett-Packard Company)
+A. Ramirez, M. Valero (Universitat Politècnica de Catalunya) 
+
+
+Two-level Mapping Based Cache Index Selection for Packet Forwarding Engines
+K. Rajan, R. Govindarajan (Indian Institute of Science)
+
+Program Generation for the All-Pairs Shortest Path Problem
+S. -C. Han, F. Franchetti, M. Püschel (Carnegie Mellon University)
+
+Combining Analytical and Empirical Approaches in Tuning Matrix Transposition
+Q. Lu, S. Krishnamoorthy, P. Sadayappan (The Ohio State University) 
+
+
+Adaptive Reorder Buffers for SMT Processors
+J. Sharkey, D. Balkan, D. Ponomarev (State University of New York)
+
+SEED: Scalable, Efficient Enforcement of Dependences
+F. J. Mesa-Martínez (University of California Santa Cruz)
+M. C. Huang (University of Rochester)
+J. Renau (University of California Santa Cruz)
+
+SPARTAN: Speculative Avoidance of Register Allocations to Transient Values for Performance and Energy Efficiency
+D. Balkan J. Sharkey D. Ponomarev K. Ghose (State University of New York) 
+
+
+Overlapping Dependent Loads with Addressless Preload
+Z. Yang , X. Shi, F. Su, J. -K. Peir (University of Florida)
+
+Prematerialization: Reducing Register Pressure for Free
+I. D. Baev, R. E. Hank, D. H. Gross (Hewlett-Packard Company)
+
+An Empirical Evaluation of Chains of Recurrences for Array Dependence Testing
+J. Birch, R. A. van Engelen, K. A. Gallivan (Florida State University)
+Y. Shou (Florida State University)
+
+Guidelines for SIGARCH Sponsored Conferences
+D. A. Patterson (University of California Berkeley)
+
+
+PACT 2001
+
+Basic Block Distribution Analysis to Find Periodic Behavior and Simulation Points in Applications
+Tim Sherwood, Erez Perelman, Brad Calder (University of California San Diego) 
+
+Modeling Superscalar Processors via Statistical Simulation
+Sebastien Nussbaum, James Smith (University of Wisconsin-Madison) 
+
+Hybrid Analytical-Statistical Modeling for Efficiently Exploring Architecture and Workload Design Spaces
+Lieven Eeckhout, Koen De Bosschere (Ghent University) 
+
+
+
+Filtering Techniques to Improve Trace-Cache Efficiency
+Roni Rosner, Avi Mendelson, Ronny Ronen (Intel)
+
+Reactive-Associative Caches
+Brannon Batson (Compaq)
+T. Vijaykumar (Purdue University)
+
+Adaptive Mode Control: A Static-Power-Efficient Cache Design
+Huiyang Zhou, Mark Toburen, Eric Rotenberg, Thomas Conte (North Carolina State University) 
+
+
+
+Implementation and Evaluation of the Complex Streamed Instruction Set
+Ben Juurlink (Delft University of Technology)
+Dmitri Tcheressiz (Leiden University)
+Stamatis Vassiliadis (Delft University of Technology)
+Harry Wijshoff (Leiden University)
+
+On the Efficiency of Reductions in micro-SIMD media extensions
+Jesus Corbal, Roger Espasa, Mateo Valero (Polytechnic University of Catalonia) 
+
+
+
+Boolean Formula-based Branch Prediction for Future Technologies
+Daniel Jimenez (The University of Texas at Austin)
+Heather Hanson (The University of Texas at Austin)
+Calvin Lin (The University of Texas at Austin)
+
+
+Using Dataflow Based Context for Accurate Value Prediction
+Renju Thomas, Manoj Franklin (University of Maryland) 
+
+Recovery mechanism for latency misprediction
+Enric Morancho, Jose Maria Llaberia, Angel Olive (Polytechnic University of Catalonia) 
+
+
+A Cost Framework for Evaluating Integrated Restructuring Optimizations
+Bharat Chandramouli, John Carter, Wilson Hsieh, Sally McKee (University of Utah) 
+
+Compiling for the Impulse Memory Controller 
+Xianglong Huang, Zhenlin Wang, Kathryn McKinley (University of Massachusetts) 
+
+On the Stability of Temporal Data Reference Profiles
+Trishul Chilimbi (Microsoft Research) 
+
+
+
+Code Reordering and Speculation Support for Dynamic Optimization Systems
+Erik Nystrom, Ronald Barnes, Matthew Merten, Wen-mei Hwu (UIUC) 
+
+A Unified Modulo Scheduling and Register Allocation Technique for Clustered Processors 
+Josep Codina, Jesus Sanchez, Antonio Gonzalez (Polytechnic University of Catalonia) 
+
+Cache-Friendly Implementations of Transitive Closure
+Michael Penner, Viktor Prasanna (University of Southern California)  
+
+
+
+Exploring the Design Space of Future CMPs
+Jaehyuk Huh, Doug Burger, Stephen Keckler (University of Texas at Austin) 
+
+Area and System Clock Effects on SMT/CMP Processors
+James Burns (Intel)
+Jean-Luc Gaudiot (University of Southern California) 
+
+
+
+Limits on Speculative Module-level Parallelism in Imperative and Object-oriented Programs on CMP Platforms
+Fredrik Warg, Per Stenstrom (Chalmers University of Technology) 
+
+Compiler and Runtime Analysis for Efficient Communication in Data Intensive Applications
+Renato Ferreira (University of Maryland)
+Gagan Agrawal (University of Delaware)
+Joel Saltz (University of Maryland)
+
+Architectural Support for Parallel Reductions in Scalable Shared-Memory Multiprocessors
+Maria Jesus Garzaran (Universidad de Zaragoza, Spain)
+Milos Prvulovic, Ye Zhang, Josep Torrellas (University of Illinois at Urbana-Champaign)
+Alin Jula, Hao Yu, Lawrence Rauchwerger (Texas A&M University)
+
+
+
+Optimizing Software Data Prefetches with Rotating Registers
+Gautam Doshi, Rakesh Krishnaiyer, Kalyan Muthukumar (Intel Corporation)  
+
+Multi-Chain Prefetching: Effective Exploitation of Inter-Chain Memory Parallelism for Pointer-Chasing Codes
+Nicholas Kohout (Intel)
+Seungryul Choi (University of Maryland at College Park)
+Dongkeun Kim, Donald Yeung (University of Maryland at College Park)
+
+
+Data Flow Analysis for Software Prefetching Linked Data Structures in Java
+Brendon Cahoon, Kathryn McKinley (University of Massachusetts) 
+
+Comparing and Combining Read Miss Clustering and Software Prefetching
+Vijay Pai (Rice University)
+Sarita Adve (UIUC)
+
+
+
+
+
+
+
+PACT 2000
+
+
+Register queues: a new hardware/software approach to efficient software pipelining
+Mikhail Smelyanskiy, Gary S. Tyson, Edward S. Davidson (The University of Michigan)
+
+
+Global register partitioning
+Jason Hiser (University of Virginia)
+Steve Can, Philip S weany (Michigan Technological University )
+
+
+Region formation analysis with demand-driven inlining for region-based optimization
+Tom Way, Ben Breech, Lori Pollock (University of Delaware)
+
+
+ASOC: a scalable, single-chip communications architecture
+Jian Liang, Sriram Swaminathan, Russell Tessier (University of Massachusetts)
+
+
+
+Address partitioning in DSM clusters with parallel coherence controllers
+Ilanthiraiyan Pragaspathy (Compaq Computer Corporation)
+Babak Falsafi (Purdue University)
+
+
+Custom wide counterflow pipelines for high performance embedded applications
+Bruce R. Childers (University of Pittsburgh)
+Jack W. Davidson (University of Virginia)
+
+
+A lightweight algorithm for dynamic if-conversion during dynamic optimization
+Kim M. Hazelwood, Thomas M. Conte (North Carolina State University)
+
+
+Exploring the limits of sub-word level parallelism
+Kevin Scott, Jack Davidson (University of Virginia)
+
+
+
+The dynamic trace memoization reuse technique
+Amarildo T. da Costa, Felipe M. G. Franqa, Eliseu M. C. Filho (UFRJ, Brazil)
+
+Exploring sub-block value reuse for superscalar processors
+Jian Huang (Sun Microsystems)
+David J. Lilja (University of Minnesota)
+
+
+Hiding relaxed memory consistency with compilers
+Jaejin Lee (Michigan State University)
+David A. Padua (UIUC)
+
+
+Neighborhood prefetching on multiprocessors using instruction history
+David M. Koppelman (Louisiana State University)
+
+
+
+Characterization of silent stores
+Gordon B. Bell, Kevin M. Lepak, Mikko H. Lipasti (University of Wisconsin-Madison)
+
+
+
+On some implementation issues for value prediction on wide-issue ILP processors
+Sang-Jeong Lee (Soonchunhyang University)
+Pen-Chung Yew (University of Minnesota)
+
+A unified compiler framework for control and data speculation
+Roy Dz-ching Ju, Kevin Nomura, Uma Mahadevan, Le-Chun Wu (Hewlett-Packard)
+
+Applying data speculation in modulo scheduled loops
+Uma Mahadevan, Kevin Nomura, Roy Dz-ching Ju, Rick Hank (Hewlett-Packard)
+
+
+Branch prediction in multi-threaded processors
+Jayanth Gummaraju, Manoj Franklin  (University of Maryland College Park)
+
+
+
+The effect of code reordering on branch prediction
+Alex Ramirez, Josep L. Larriba-Pey, Mateo Valero (Universitat Politecnica de Catalunya)
+
+
+A taxonomy of branch mispredictions, and alloyed prediction as a robust solution to wrong-history mispredictions
+Kevin Skadron (University of Virginia)
+Margaret Martonosi, Douglas W. Clark (Princeton University)
+
+Dynamic branch prediction for a VLIW processor
+Jan Hoogerbrugge (Philips Research Laboratories)
+
+
+Fine grained multithreading with process calculi
+Luis Lopes, Fernando Silva (University of Porto)
+Vasco T. Vasconcelos (University of Lisbon)
+
+
+
+
+Data relation vectors: a new abstraction for data optimizations
+Mahmut Kandernir (Pennsylvania State University)
+Jagannathan Ramanujam (Louisiana State University )
+
+
+Combined selection of tile sizes and unroll factors using iterative compilation
+Toru Kisuki, Peter M. W. Knijnenburg (Leiden University)
+Michael F.P. O'Boyle (University of Edinburgh)
+
+
+Faster FFTs via architecture-cognizance
+Kang Su Gatlin, Larry Carter (University of California San Diego)
+
+
+
+Hybrid parallel circuit simulation approaches
+Edwin Naroska, Uwe Schwiegelshohn (University of Dortmund)
+Rung-Ji Shang, Feipei Lai (National Taiwan University)
+
+
+Multithreaded programming of PC clusters
+Martin Schulz (TU Munchen)
+
+
+A fast algorithm for scheduling instructions with deadline constraints on RISC machines
+Hui Wu, Joxan Jaffar, Roland Yap (National University of Singapore)
+
+Instruction scheduling for clustered VLIW DSPs
+Rainer Leupers  (University of Dortmund)
+
+
+Efficient backtracking instruction schedulers
+Santosh G. Abraham (Hewlett-Packard Laboratories)
+Waleed M. Meleis, Ivan D. Baev (Northeastern University)
+
+
+
+PACT 1999
+
+
+Exploring instruction-fetch bandwidth requirement in wide-issue superscalar processors
+Pierre Michaud (INRIA)
+Andre Seznec (Compaq Computer Corporation)
+Stephan Jourdan (Intel)
+
+
+MPEG-2 video decompression on simultaneous multithreaded multimedia processors
+Heiko Oehring, Ulrich Sigmund (VIONA Development GmbH)
+Theo Ungerer (University of Karlsruhe)
+
+
+A fully asynchronous superscalar architecture
+Damal Kandadal Arvind, Robert D. Mullins (The University of Edinburgh)
+
+
+The need for fast communication in hardware-based speculative chip multiprocessors
+Venkata Krishnan, Josep Torrellas (UIUC)
+
+A multithreaded Java microcontroller for thread-oriented real-time event-handling
+Uwe Brinkschulte, C. Krakowski, Jochen Kreuzinger, Theo Ungerer (University of Karlsruhe)
+
+
+On dynamic speculative thread partitioning and the MEM-slicing algorithm
+Lucian Codrescu, Donald Scott Wills (Georgia Institute of Technology)
+
+
+Branch prediction using selective branch inversion
+Srilatha Manne (Compaq Computer Corporation)
+Artur Klauser, Dirk Grunwald (University of Colorado at Boulder)
+
+
+Control-flow speculation through value prediction for superscalar processors
+José González, Antonio González (Universitat Politecnica de Catalunya)
+
+Exploring last n value prediction
+Martin Burtscher (University of Colorado)
+Benjamin G. Zorn (Microsoft)
+
+
+Evaluating register allocation and instruction scheduling techniques in out-of-order issue processors
+Madhavi Gopal Valluri (University of Texas at Austin)
+Ramaswamy Govindarajan (Indian Institute of Science)
+
+Containers on the parallelization of general-purpose Java programs
+Peng Wu, David Padua (UIUC)
+
+
+The modulo interval: a simple and practical representation for program analysis
+Tsuneo Nakanishi (Nara Institute of Science and Technology)
+Kazuki Joe (Nara Women's University)
+Constantine D. Polychronopoulos (UIUC)
+Akira Fukuda (Nara Institute of Science and Technology)
+
+Memory system support for image processing
+Lixin Zhang, John B. Carter, Wilson C. Hsieh, Sally A. McKee (University of Utah)
+
+Performance characteristics of a network of commodity multiprocessors for the NAS benchmarks using a hybrid memory model
+Franck Cappello, Olivier Richard (University of Paris-Sud)
+
+
+Quantifying the benefits of SPECint distant parallelism in simultaneous multithreading architectures
+Daniel Ortega (Polytechnic University of Catalonia)
+Ivan Martel (Polytechnic University of Catalonia)
+Venkata Krishnan (Compaq Computer Corporation)
+Eduard Ayguade (Polytechnic University of Catalonia)
+Mateo Valero (Polytechnic University of Catalonia)
+
+
+
+
+LaTTe: a Java VM just-in-time compiler with fast and efficient register allocation
+Byung-Sun Yang, Soo-Mook Moon, Seongbae Parky, Junpyo Lee, SeungIl Lee, Jinpyo Park, Yoo C. Chung, Suhyun Kim (Seoul National University, Korea)
+
+Automatic parallelization of recursive procedures
+Manish Gupta (IBM)
+Sayak Mukhopadhyay (Mobius Management Systems)
+Navin Sinha (IBM)
+
+On the complexity of loop fusion
+Alain Darte (ENS Lyon)
+
+A cost-effective clustered architecture
+Ramon Canal, Joan-Manuel Parcerisa, Antonio González (Polytechnic University of Catalonia)
+
+
+
+Optimizing data locality for SCI-based PC-clusters with the SMiLE monitoring approach
+Wolfgang Karl, Markus Leberecht, Martin Schulz (TU Munchen)
+
+
+Dynamic linking on a shared-memory multiprocessor
+Bowen Alpern, Mark Charney, Jong-Deok Choi, Anthony Cocchi, Derek Lieber (IBM)
+
+
+Reducing cache conflicts by partitioning and privatizing shared arrays
+Zhiyuan Li (Purdue University)
+
+
+Localizing non-affine array references
+Nicholas Mitchell, Larry Carter, Jeanne Ferrante (UC San Diego)
+
+
+
+On reducing false sharing while improving locality on shared memory multiprocessors
+Mahmut Kandemir, Alok Choudhary (Northwestern University)
+Jagannathan Ramanujam (Louisiana State University)
+Prith Banerjee (Northwestern University)
+
+Lower bounding techniques for the multiprocessor scheduling problem with communication delay
+Satoshi Fujita, Tadanori Nakagawa (Hiroshima University)
+
+
+Automatic analytical modeling for the estimation of cache misses
+Basilio B. Fraguela, Ramon Doallo (Universidade da Coruna)
+Emilio L. Zapata (Universidad de Malaga)
+
+
+
+
+Cameron: high level language compilation for reconfigurable systems
+Jeff Hammes, Bob Rinker, Wim Bohm, Walid Najjar, Bruce Draper, Ross Beveridge (Colorado State University)
+
+
+Predicated static single assignment
+Lori Carter, Beth Simon, Brad Calder, Larry Carter, Jeanne Ferrante (UC San Diego)
+
+The effect of program optimization on trace cache efficiency
+Derek L. Howard, Mikko H. Lipasti (IBM)
+
+
+
+Data dependence testing in practice
+Kleanthis Psarris, Konstantinos Kyriakopoulos (The University of Texas at San Antonio)
+
+
+On index set splitting
+Martin Griebl (Universitat Passau)
+Paul Feautrier (Universite de Versailles)
+Christian Lengauer (Universitat Passau)
+
+
+Efficient parallelisation using combined loop and data transformations
+Michael F. P. O'Boyle (University of Edinburgh)
+Peter M. W. Knijnenburg (Leiden University)
+
+
+Caching and predicting branch sequences for improved fetch effectiveness
+Soner Onder (Michigan Technological University)
+Jun Xu (UIUC)
+Rajiv Gupta (The University of Arizona)
+
+
+In search of speculative thread-level parallelism
+Jeffrey T. Oplinger, David L. Heine, Monica S. Lam (Stanford University)
+
+
+
+Looking at history to filter allocations in prediction tables
+Enric Morancho, José María Llabería, Àngel Olivé (Universitat Politecnica de Catalunya)
+
+
+PACT 1998
+
+Scanning Polyhedra without Do-loops
+Pierre BOULET (Cite Scientifique)
+Paul FEAUTRIER (Universite de Versailles)
+
+Integrating Loop and Data Transformations for Global Optimization
+Michael F. P. O'Boyle (University of Edinburgh)
+Peter M. W. Knijnenburg (Leiden University)
+
+Optical versus Electronic Bus for Address-Transactions in Future SMP Architectures
+Wissam Hlayhel (Informatics Research Institute of Toulouse, France)
+Daniel Litaize (Informatics Research Institute of Toulouse, France)
+Laurent Fesquet (Laboratory for Analysis and Architecture of Systems, France)
+Jacques Collet (Laboratory for Analysis and Architecture of Systems, France)
+
+
+Origin 2000 Design Enhancements for Communication Intensive Applications
+Gheith A. Abandah (University of Jordan)
+Edward S. Davidson (University of Michigan)
+
+Sirocco: Cost-Effective Fine-Grain Distributed Shared Memory
+Ioannis Schoinas (Intel)
+Babak Falsafi (Purdue University)
+Mark D. Hill (University of Wisconsin-Madison)
+James R. Larus (University of Wisconsin-Madison)
+David A. Wood (University of Wisconsin-Madison)
+
+Design Study of Shared Memory in VLIW Video Signal Processors 
+Zhao Wu (Princeton University)
+Wayne Wolf (Princeton University)
+
+Exploiting Fine- and Coarse-Grain Parallelism in Embedded Programs
+Ireneusz Karkowski (Delft University of Technology)
+Henk Corporaal (Delft University of Technology)
+
+Command Vector Memory Systems: High Performance at Low Cost
+Jesus Corbal (Universitat Politecnica de Catalunya)
+Roger Espasa (Universitat Politecnica de Catalunya)
+Mateo Valero (Universitat Politecnica de Catalunya)
+
+
+Eliminating Bottlenecks on Parallel Systems using Adaptive Objects
+Masahiro YASUGI (Kyoto University)
+Shigeyuki EGUCHI (Kobe University)
+Kazuo TAKI (Kobe University)
+
+Athapascan-1: On-Line Building Data Flow Graph in a Parallel Language
+François Galilee (Laboratoire d'Informatique de Grenoble)
+Gerson G. H. Cavalheiro (Laboratoire d'Informatique de Grenoble)
+Jean-Louis Roch (Laboratoire d'Informatique de Grenoble)
+Mathias Doreille (Laboratoire d'Informatique de Grenoble)
+
+General Parallel Computation can be Performed with a Cycle-Free Heap
+Jack B. Dennis (MIT)
+
+A Fast Algorithm for Scheduling Time-Constrained Instructions on Processors with ILP
+Allen Leung (New York University)
+Krishna V. Palem (New York University)
+
+A New Framework for Integrated Global Local Scheduling
+Srinivas Mantripragada (Silicon Graphics Computer Systerms)
+Suneel Jain (Silicon Graphics Computer Systerms)
+Jim Dehnert (Silicon Graphics Computer Systerms)
+
+Exploiting Method-Level Parallelism in Single-Threaded Java Programs
+Michael K. Chen (Stanford University)
+Kunle Olukotun (Stanford University)
+
+The StarT-Voyager Parallel System 
+Boon S. Ang (MIT)
+Derek Chiou (MIT)
+Larry Rudolph (MIT)
+Arvind Mithal (MIT)
+
+Optimistic Register Coalescing
+Jinpyo Park (Seoul National University)
+Soo-Mook Moon (Seoul National University)
+
+Efficient JavaVM Just-in-Time Compilation
+Andreas Krall (TU Wien)
+
+Improving Static Branch Prediction in a Compiler
+Brian L. Deitrich (Motorola)
+Ben-Chung Cheng (University of Illinois at Urbana-Champaign)
+Wen-mei W. Hwu (University of Illinois at Urbana-Champaign)
+
+Static Methods in Hybrid Branch Prediction
+Dirk Grunwald (University of Colorado)
+Donald Lindsay (University of Colorado)
+Benjamin Zorn (University of Colorado)
+
+Split Last-Address Predictor 
+Enric Morancho (Universitat Politecnica de Catalunya)
+José María Llabería (Universitat Politecnica de Catalunya)
+Àngel Olivé (Universitat Politecnica de Catalunya)
+
+Madeleine: An Efficient and Portable Communication Interface for RPCbased Multithreaded Environments
+Luc Bougé (ENS Lyon)
+Jean-François Méhaut (INRIA)
+Raymond Namyst (ENS Lyon)
+
+Breaking the Barriers: Two Models for MPI Programming
+J. Roda (Universidad de La Laguna)
+C. Rodríguez (Universidad de La Laguna)
+D. G. Morales (Universidad de La Laguna)
+F. Almeida (Universidad de La Laguna)
+P. Pulido (Universidad de La Laguna)
+D. Dorta (Universidad de La Laguna)
+
+Adaptive Receiver Notification for Non-Dedicated Workstation Clusters
+Michael Schmitt (University of California Santa Barbara)
+Max Ibel  (University of California Santa Barbara)
+Anurag Acharya  (University of California Santa Barbara)
+Klaus Schauser (University of California Santa Barbara)
+
+Performance of Message-Passing Systems using a Zero-Copy Communication Protocol
+P. Melas (University of Southampton)
+E. J. Zaluska (University of Southampton)
+
+Dynamic Hammock Predication for Non-Predicated Instruction Set Architectures 
+Artur Klauserx (University of Colorado at Boulder)
+Todd Austiny (Intel)
+Dirk Grunwaldx (University of Colorado at Boulder)
+Brad Calder (University of California San Diego)
+
+An Direct-Execution Framework for Fast and Accurate Simulation of Superscalar Processors
+Venkata Krishnan (University of Illinois at Urbana-Champaign)
+Josep Torrellas (University of Illinois at Urbana-Champaign)
+
+Efficient Edge Profiling for ILP-Processors
+Alexandre E. Eichenberger (North Carolina State University)
+Sheldon M. Lobo (North Carolina State University)
+
+A Matrix-Based Approach to the Global Locality Optimization Problem
+Mahmut Kandemir (Syracuse University)
+Alok Choudhary (Northwestern University)
+Jagannathan Ramanujam (Louisiana State University)
+Prith Banerjee (Northwestern University)
+
+
+Transformations for Improving Data Access Locality in Non-Perfectly Nested Loops
+Dattatraya Kulkarni (IBM)
+
+Improving Cache Behavior of Dynamically Allocated Data Structures
+Dan N. Truong (INRIA)
+François Bodin (INRIA)
+Andre Seznec (INRIA)
+
+
+Instance-wise Reaching Definition Analysis for Recursive Programs using Context-free Transductions
+Albert Cohen, Jean-François Collard (University of Versailles)
+
+Data Dependence Analysis of Assembly Code
+Wolfram Amme, Peter Braun, Eberhard Zehendner (Friedrich Schiller University Jena)
+François Thomasset (INRIA)
+
+Load Balancing in Individual-Based Spatial Applications
+Fehmina Merchant, Lubomir F. Bic, Michael B. Dillencourt (University of California Irvine)
+
+
+A New Heuristic for Scheduling Parallel Programs on Multiprocessor 
+Jing-Chiou Liou (AT&T Laboratories)
+Michael A. Palis (Rutgers University)
+
+
+Adaptive Scheduling of Computations and Communications on Distributed Memory Systems 
+Mayez Al-Mouhamed, Homam Najjari (King Fahd University)
+
+Using Algebraic Transformations to Optimize Expression Evaluation in Scientific Codes
+Julien Zory, Fabien Coelho (Ecole Nationale Superieure des Mines de Paris)
+
+Integrated Compilation and Scalability Analysis for Parallel Systems
+Celso L. Mendes (National Institute of Space Research, Brazil)
+Daniel A. Reed (University of Illinois at Urbana-Champaign)
+
+Improving Compiler and Run-Time Support for Adaptive Irregular Codes
+Hwansoo Han, Chau-Wen Tseng (University of Maryland)
+
+Parallelization of Benchmarks for Scalable Shared-Memory Multiprocessors
+Yunheung Paek (New Jersey Institute of Technology)
+Angeles Navarro, Emilio Zapata (University of Malaga)
+David Padua (UIUC)
+
+Efficient Methods for Multi-Dimensional Array Redistribution
+Yeh-Ching Chung, Ching-Hsien Hsu (Feng Chia University, Taiwan)
+
+A Multithreaded Runtime Environment with Thread Migration for a HPF Data-Parallel Compiler
+Luc Bougé (ENS Lyon)
+Phil Hatchery (University of New Hampshire)
+Raymond Namyst (ENS Lyon)
+Christian Perez (ENS Lyon)
+
+Optimized Code Generation for Heterogeneous Computing Environment using  Parallelizing Compiler TINPAR
+Shin-ya GOTO (Sumitomo Electric Industries)
+Atsushi KUBOTA (Hiroshima City University)
+Toshihiko TANAKA (Kyoto University)
+Masahiro GOSHIMA (Kyoto University)
+Shin-ichiro MORI (Kyoto University)
+Hiroshi NAKASHIMA (Toyohashi University of Technology)
+Shinji TOMITA (Kyoto University)
+
+PACT 1997
+
+
+Locality analysis for parallel C programs
+Yingchun Zhu (McGill University)
+Laurie J. Hendren (McGill University)
+
+Heap Analysis and Optimizations for Threaded Programs
+Xinan Tang (McGill University)
+Rakesh Ghiya (McGill University)
+Laurie J. Hendren (McGill University)
+Guang R. Gao (University of Delaware)
+
+Inierprocedural Distribution Assignment Placement: More than Just Enhancing Intraprocedural Placing Techniques
+Jens Knoop (Universitat Passau, Germany)
+Eduard Mehofer (Universitat Wien, Austria)
+
+
+The Effect of Limited Network Bandwidth and its Utilization by Latency Hiding Techniques in Large-scale Shared Memory System
+Sunil Kim (IBM)
+Alexander V. Veidenbaum (University of Illinois at Chicago)
+
+Efficient Personalized Communication on Wormhole Networks
+Fabrizio Petrini (UC Berkeley)
+Marco Vanneschi (University of Pisa, Italy)
+
+Empirical Evaluation of Deterministic and Adaptive Routing with Constant-Area Routers
+Dianne R. Miller (Colorado State University)
+Walid A. Najjar (Colorado State University)
+
+A register pressure sensitive instruction scheduler for dynamic issue processors
+Rad Silvera (McGill University)
+Jian Wang (McGill University)
+Guang R. Gao (McGill University)
+Ramaswamy Govindarajan (Indian Institute of Science)
+
+A Parallel Algorithm for Compile-Time Scheduling of Parallel Programs on Multiprocessors
+Yu-Kwong Kwok (Hong Kong University of Science and Technology)
+Ishfaq Ahmad (Hong Kong University of Science and Technology)
+
+Path Profile Guided Partial Dead Code Elimination Using Predication
+Rajiv Gupta	(University of Pittsburgh)
+David A. Berson (Intel)	
+Jesse Z. Fang	(Intel)
+
+Path Prediction for High Issue-Rate Processors
+Kishore N. Menezes (North Carolina State University)
+Sumedh W. Sathaye (North Carolina State University)
+Thomas M. Conte (North Carolina State University)
+
+Buffer-Safe Communication Optimization Based on Data Flow Analysis and Performance Prediction
+Thomas Fahringer (University of Vienna)
+Eduard Mehofer (University of Vienna)
+
+MDL: A Language and Compiler for Dynamic Program Instrumentation
+Jeffrey K. Hollingsworth (University of Maryland College Park) 
+Oscar Naim (University of Wisconsin-Madison)
+Barton P. Miller (University of Wisconsin-Madison)
+Zhichen Xu (University of Wisconsin-Madison)
+Marcelo J. R. Gonçalves (University of Wisconsin-Madison)
+Ling Zheng (University of Wisconsin-Madison)
+
+Optimally Synchronizing DOACROSS Loops on Shared Memory Multiprocessors
+Ramakrishnan Rajamony (Rice University)
+Alan L. Cox (Rice University)
+
+Two Techniques for Static Array Partitioning on Message-Passing Parallel Machines
+Eric Hung-Yu Tseng (University of Southern California)
+Jean-Luc Gaudiot (University of Southern California)
+
+Compiler Algorithms for Optimizing Locality and Parallelism on Shared and Distributed Memory Machines
+Mahmut Kandemir (Syracuse University)
+Jagannathan Ramanujam (Louisiana State University)
+Alok Choudhary (Northwestern University)
+
+Effective usage of vector registers in advanced vector architectures
+Luis Villa (Universitat Politecnica de Catalunya)
+Roger Espasa (Universitat Politecnica de Catalunya)
+Mateo Valero (Universitat Politecnica de Catalunya)
+
+Static locality analysis for cache management
+Jesus Sanchez (Universitat Politecnica de Catalunya)
+Antonio Gonzalez (Universitat Politecnica de Catalunya)
+Mateo Valero (Universitat Politecnica de Catalunya)
+
+Overcoming Limitations of Prefetching in Multiprocessors by Compiler-Initiated Coherence Actions
+Jonas Skeppstedt (Chalmers University of Technology, Sweden)
+
+Towards a Time and Space Efficient Functional Implementation of a Monte Carlo Photon Transport Code
+Jeffrey P. Hammes (Colorado State University)
+Wim Bohm (Colorado State University)
+
+Direct Generation of Data-Driven Program for Stream-Oriented Processing
+Kei Karasawa (Osaka University)
+Makoto Iwata (Kochi University of Technology)
+Hiroaki Terada (Kochi University of Technology)
+
+Determining the Idle Time of a Tiling: New Results 
+Frederic Desprez (Ecole Normale Superieure de Lyon)
+Jack Dongarra (Oak Ridge National Laboratory)
+Fabrice Rastello (Ecole Normale Superieure de Lyon)
+Yves Robert (University of Tennessee) 
+
+PACT 1996
+
+Nomadic Threads: A Migrating Multithreaded Approach to Remote Memory Accesses in Multiprocessors
+Stephen Jenks (University of Southern California)
+Jean-Luc Gaudiot (University of Southern California)
+
+
+Compiling C for the EARTH Multithreaded Architecture
+Laurie J. Hendren (McGill University)
+Xinan Tang (McGill University)
+Yingchun Zhu (McGill University)
+Guang R. Gao (McGill University)
+Xun Xue (McGill University)
+Haiying Cai (McGill University)
+Pierre Ouellet (McGill University)
+
+Performance and hardware complexity tradeoffs in designing multithreaded architectures
+Michael Bekerman (Israel Institute of Technology, Israel)
+Avi Mendelson (Israel Institute of Technology, Israel)
+Gad Sheaffer (Intel, Israel)
+
+The superthreaded architecture: thread pipelining with run-time data dependence checking and control speculation
+Jenn-Yuan Tsai (University of Illinois)
+Pen-Chung Yew (University of Minnesota)
+
+Improving branch prediction accuracy by reducing pattern history table interference
+Po-Yung Chang (The University of Michigan)
+Marius Evers (The University of Michigan)
+Yale N. Patt (The University of Michigan)
+
+The Effects of Mispredicted-Path Execution on Branch Prediction Structures
+Stkphan Jourdant (Institut de Recherche en Informatique de Toulouse)
+Tse-Hao Hsing (The University of Michigan)
+Jared Stark (The University of Michigan)
+Yale N. Patt (The University of Michigan)
+
+Improving the Effectiveness of Software Prefetching with Adaptive Execution
+Rafael H. Saavedra (University of Southern California) 
+Daeyeon Park (University of Southern California)
+
+Swing Modulo Scheduling: A Lifetime-Sensitive Approach
+Josep Llosa (Universitat Politecnica de Catalunya)
+Antonio González (Universitat Politecnica de Catalunya)
+Eduard Ayguadé (Universitat Politecnica de Catalunya)
+Mateo Valero (Universitat Politecnica de Catalunya)
+
+Dynamic Parallelization of Modifications to Directed Acyclic Graphs
+Lorenz Huelsbergen (Bell Laboratories)
+
+Performance Tuning Scientific Codes for Dataflow Execution
+Andrew Shaw (MIT)
+Arvind Mithal (MIT)
+R. Paul Johnson (MIT)
+
+Bulk Synchronous Parallel: Practical Experience with a Model for Parallel Computing
+Danny Krizanct (Carleton University)
+Anton Saarimakij (Carleton University)
+
+Implementation Techniques for a Parallel Relative Debugger
+David Abramson (Griffith University)
+Rok Sosic (Griffith University)
+Greg Watson (Griffith University)
+
+Loop Induction Variable Canonicalization in Parallelizing Compilers
+Shin-Ming Liu (Silicon Graphics Computer Systems)
+Raymond Lo (Silicon Graphics Computer Systems)
+Fred Chow (Silicon Graphics Computer Systems)
+
+Combining Optimization for Cache and Instruction-Level Parallelism 
+Steve Carr (Michigan Technological University)
+
+A compiler algorithm to reduce invalidation latency in virtual shared memory systems
+Michael F.P. O'Boyle (University of Manchester Institute of Science and Technology, UK)
+Andy P. Nisbet (University of Manchester, UK)
+Rupert W. Ford (University of Manchester, UK)
+
+
+Adaptive Granularity: Transparent Integration of Fine- and Coarse-Grain Communication
+Daeyeon Park (University of Southern California)
+Rafael H. Saavedra (University of Southern California)
+
+Automatic partitioning of signal processing programs for symmetric multiprocessors
+Chris J. Newburn (Carnegie Mellon University)
+John Paul Shen (Carnegie Mellon University)
+
+Optimal fine and medium grain parallelism detection in polyhedral reduced dependence graphs
+Alain Darte (Ecole Normale Superieure de Lyon)
+Frederic Vivien (Ecole Normale Superieure de Lyon)
+
+
+
