@@ -3,12 +3,12 @@ import os
 import glob
 import shutil
 #import hashlib
-import pickle
+
+import json
 
 import re
 
 from collections import defaultdict
-from sets import Set
 
 from paper import *
 
@@ -25,9 +25,9 @@ class PaperBase:
         self.path = base_path
         if not os.path.exists(base_path+'/data'):
             os.makedirs(base_path+'/data')
-        if os.path.exists(self.path+'/entries.pkl'):
-            with open(self.path+'/entries.pkl') as f:
-               self.entries = pickle.load(f)
+        if os.path.exists(self.path+'/entries.json'):
+            with open(self.path+'/entries.json') as f:
+               self.entries = json.load(f)
 
         files = glob.glob(base_path+'/data/*.bib')
         paper_ids = [os.path.splitext(os.path.basename(path))[0] for path in files]
@@ -40,9 +40,9 @@ class PaperBase:
               self.entries[paper_id] = (paper_file,bibtex_file)
            self.index(indexAll=True)
            self.persist()
-        elif os.path.exists(self.path+'/index.pkl'):
-            with open(self.path+'/index.pkl') as f:
-                index = pickle.load(f)
+        elif os.path.exists(self.path+'/index.json'):
+            with open(self.path+'/index.json') as f:
+                index = json.load(f)
                 self.__indexed_ids = index['ids']
                 self._words_index = index['words']
                 self._tags_index = index['tags']
@@ -86,7 +86,9 @@ class PaperBase:
 
     def insert(self,paper_file, bibtex_file):
         import hashlib
-        paper_id = hashlib.sha256(str(len(self.entries))).hexdigest()
+        with open(paper_file,'rb') as f:
+          paper_id = hashlib.sha256(bytearray(f.read())).hexdigest()
+        #paper_id = hashlib.sha256(len(self.entries)).hexdigest()
         #paper_id = self.__next_id()
         cp_paper_file = self.path+'/data/'+str(paper_id)+os.path.splitext(paper_file)[1]
         cp_bibtex_file = self.path+'/data/'+str(paper_id)+'.bib'
@@ -110,11 +112,11 @@ class PaperBase:
            self._tags_index[k] = list(filter((paper_id).__ne__, self._tags_index[k]))
 
     def persist(self):
-        with open(self.path+'/entries.pkl','w') as f:
-           pickle.dump(self.entries,f)
-        with open(self.path+'/index.pkl','w') as f:
+        with open(self.path+'/entries.json','w') as f:
+           json.dump(self.entries,f)
+        with open(self.path+'/index.json','w') as f:
             index = {'ids':self.__indexed_ids,'tags':self._tags_index,'words':self._words_index}
-            pickle.dump(index,f)
+            json.dump(index,f)
 
     def paper(self, paper_id):
         if paper_id not in self.entries.keys():
@@ -133,9 +135,9 @@ class PaperBase:
         if indexAll:
             re_index = self.entries.keys()
         self.__update_index(re_index)
-        with open(self.path+'/index.pkl','w') as f:
+        with open(self.path+'/index.json','w') as f:
             index = {'ids':self.__indexed_ids,'tags':self._tags_index,'words':self._words_index}
-            pickle.dump(index,f)
+            json.dump(index,f)
 
     def __update_index(self, re_index=[]):
         if not self.__indexed_ids:
@@ -146,18 +148,21 @@ class PaperBase:
             self._tags_index = defaultdict(list)
 
         knownIds = [pid for pid in self.__indexed_ids if pid not in re_index]
-        self.__indexed_ids = self.entries.keys()
+        self.__indexed_ids = list(self.entries.keys())
         if set(knownIds)!=set(self.entries.keys()):
             indexingList = sorted([pid for pid in self.entries.keys() if pid not in knownIds])
             #print 'Indexing:',' '.join([str(fid) for fid in indexingList])
             for paper_id in indexingList:
+                print(paper_id)
                 paper = self.paper(paper_id)
                 #words indexing
                 text = paper.text()
                 if text:
                     #TODO: filter stopwords and do some other text processing
-                    filtered_text = [w for w in re.split('\W+', text) if len(w)>1 and (not w.isdigit())]
+                    filtered_text = [w for w in re.split('\W+', str(text)) if len(w)>1 and (not w.isdigit())]
                     for token in filtered_text:
+                        if token.lower() not in self._words_index.keys():
+                             self._words_index[token.lower()] = [];
                         if paper_id not in self._words_index[token.lower()]:
                             self._words_index[token.lower()].append(paper_id)
                             #cleanup

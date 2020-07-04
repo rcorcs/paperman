@@ -27,7 +27,7 @@ class Paper:
                     self.tags = [t.strip() for t in tags]
     def text(self):
         if not self.__cached_text:
-            self.__cached_text = textract.process(self.__pdf_file_path)
+            self.__cached_text = str(textract.process(self.__pdf_file_path, encoding='utf-8')).replace('\\n',' ')
         return self.__cached_text
 
     def __str__(self):

@@ -57,7 +57,7 @@ def run_add_paper():
     #print paper.year()
     paper.persist()
     db.persist()
-    print 'Paper added: ', paper.label()
+    print('Paper added: ', paper.label())
     return paper
 
 def run_update():
@@ -123,9 +123,9 @@ def run_search():
     for paper_id in view.sorted_ids():
         paper = items[paper_id]
         if asBibtex:
-            print paper.bibtex(simplified)
+            print(paper.bibtex(simplified))
         else:
-            print paper
+            print(paper)
 
 if __name__=='__main__':
     base_path = os.environ.get('HOME','.')+'/.paperman'
@@ -149,7 +149,13 @@ if __name__=='__main__':
             paper_id = db.label_to_id(paper_label)
             if paper_id in db.entries:
                 paper_path, _ = db.entries[paper_id]
-                call(['gvfs-open', paper_path])
+                call(['gio','open', paper_path])
+    elif cmd=='dump':
+        for paper_label in sys.argv[2:]:
+            paper_id = db.label_to_id(paper_label)
+            if paper_id in db.entries:
+                paper = db.paper(paper_id)
+                print(str(paper.text()))
     elif cmd=='remove':
         for paper_label in sys.argv[2:]:
             db.remove(db.label_to_id(paper_label))
